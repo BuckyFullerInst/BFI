@@ -77,10 +77,6 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'80';}}
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'81';}}
-body.node-type-page #wrapper, body.node-type-blog-post #wrapper {
-  padding-bottom: 0;
-}
-
 
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'86';}}
 #main {
