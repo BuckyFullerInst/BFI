@@ -1053,6 +1053,7 @@ footer {
 		overflow: hidden;
 	}
 	background-color: $gray-back;
+	.region { display: inline-block; }
 	.region-footer-left, .region-footer-right {
 		font-size: 12px;
 		line-height: 18px;
@@ -1110,6 +1111,25 @@ footer {
 			}
 		}
 	}
+	.region-footer-bottom {
+		clear: both;
+		width: 100%;
+		margin: $margin $margin/2 0;
+		@include post-date;
+		p {
+			margin: 0;
+			padding-bottom: 4px;
+		}
+		#block-views-bfi-footer-views-sponsors {
+			.views-row {
+				display: inline-block;
+				margin-right: 20px;
+			}
+		}
+
+	}
+
+
 
 }
 

@@ -153,6 +153,8 @@
       <?php print render($page['footer_left']); ?>
     <?php endif; if ($page['footer_right']): ?>
       <?php print render($page['footer_right']); ?>
+    <?php endif; if ($page['footer_bottom']): ?>
+      <?php print render($page['footer_bottom']); ?>
     <?php endif; ?>
   </div>
 </footer><!-- /#footer -->
