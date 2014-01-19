@@ -1,0 +1,4 @@
+**/.DS_Store
+**/sites/default/files/civicrm/templates_c/en_US/*
+**/backup_migrate/*/scheduled/*
+**/sites/default/*settings.php
