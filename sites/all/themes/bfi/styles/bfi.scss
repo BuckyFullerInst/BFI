@@ -584,68 +584,12 @@ body.front #sidebar-second {
 
 /* -----  Views  ----- */
 
+// Front Slideshow
 #views_slideshow_cycle_main_bfi_front_slideshow-block .views-slideshow-cycle-main-frame  {
 	height: 340px;
 }
 
-.view-bfi-submenu-listing,
-#block-views-bfi-front-slideshow-bfc-supp,
-#block-views-bfi-front-slideshow-bfi-supp,
-.view-bfi-general-search {
-	.views-row {
-		height: 220px;
-		width: $width-content;
-		background-color: $gray-back;
-		.field-image {
-			float: left;
-		}
-		.text {
-			.title a  {
-				@include content-title-med;
-			}
-			float: right;
-			height: 180px;
-			width: 250px;
-			margin: $margin 80px $margin $margin;
-			overflow: hidden;
-			p:first-of-type {
-				margin-top: 1em;
-			}
-		}
-		margin-bottom: $margin;
-	}
-}
-
-body.page-node-92 {
-	#block-views-bfi-submenu-listing-block {
-		border-top: 1px solid $gray-back;
-		padding-top: $margin;
-	}
-}
-
-
-#block-views-bfi-front-slideshow-bfc-supp,
-#block-views-bfi-front-slideshow-bfi-supp {
-	.views-row {
-		.field-image {
-			float: right;
-		}
-		.text {
-			float: left;
-		}
-		margin-bottom: 0;	
-	}
-}
-#block-views-bfi-front-slideshow-bfi-up,
-#block-views-bfi-front-slideshow-chall-up {
-	.views-row {
-		.text {
-			@include interstate;
-			a { color: $gray-dark; }
-		}
-	}
-}
-
+// Banner Images
 .view-bfi-banner-images.view-display-id-section_name,
 .view-bfi-banner-images.view-display-id-section_name2,
 .view-bfi-banner-images.view-display-id-section_name3,
@@ -664,13 +608,71 @@ body.page-node-92 {
 	}
 }
 
-.view-id-bfi_content_image_thumbs {
-	.view-header { @include post-date; }
-	tr {
-		td { padding-right: $margin; }
-		td.col-last { padding-right: 0; }
+// Common block-row formatting for Submenus, front supplementas, search, and literature sources
+.view-bfi-submenu-listing,
+#block-views-bfi-front-slideshow-bfc-supp,
+#block-views-bfi-front-slideshow-bfi-supp,
+.view-bfi-general-search,
+.view-bfi-lit-rbf-books {
+	width: $width-content;
+	.views-row {
+		overflow: hidden;
+		width: 100%;
+		background-color: $gray-back;
+		.field-content {
+			overflow: hidden;
+			width: 100%;
+		}
+		.field-image {
+			overflow: hidden;
+			float: left;
+		}
+		.text {
+			float: right;
+			padding-right: 80px;
+			.title, .title a  {
+				@include content-title-med;
+			}
+			margin: $margin 0 $margin $margin;
+			overflow: hidden;
+			p:first-of-type {
+				margin-top: 1em;
+			}
+		}
+		margin-bottom: $margin;
 	}
-	margin-bottom: $margin;
+}
+
+.view-bfi-submenu-listing,
+#block-views-bfi-front-slideshow-bfc-supp,
+#block-views-bfi-front-slideshow-bfi-supp,
+.view-bfi-general-search {
+	.views-row {
+		height: 220px;
+		.text {
+			height: 180px;
+			width: 250px;
+		}
+	}
+}
+
+// Submenu-specific
+body.page-node-92 {
+	#block-views-bfi-submenu-listing-block {
+		border-top: 1px solid $gray-back;
+		padding-top: $margin;
+	}
+}
+
+// Front Updates
+#block-views-bfi-front-slideshow-bfi-up,
+#block-views-bfi-front-slideshow-chall-up {
+	.views-row {
+		.text {
+			@include interstate;
+			a { color: $gray-dark; }
+		}
+	}
 }
 
 // General Search
@@ -710,6 +712,56 @@ body.page-node-92 {
 			margin: 0;
 		}
 	}
+}
+
+// Literature source lists
+body.section-about-fuller .region-content-bottom {
+	.block-title {
+		margin-top: $margin;
+		border-bottom: 2px solid $gray-back;
+		margin-bottom: $margin/2;
+		text-transform: lowercase;
+	}
+	#block-views-bfi-lit-rbf-books-intros,
+	#block-views-bfi-lit-rbf-books-forewords,
+	#block-views-bfi-lit-rbf-books-contributions {
+		.block-title {
+			text-transform: uppercase;
+		}
+	}
+}
+
+.view-bfi-lit-rbf-books {
+	.views-row {
+		img { float: left; }
+		.text {
+			width: 500px;
+		}
+		p { margin-bottom: 0; }
+	}
+}
+
+.view-bfi-lit-rbf-other {
+	.view-content {
+		h3 {
+			margin-top: $margin;
+			padding-bottom: $margin/4;
+			border-bottom: 2px solid $gray-back;
+			margin-bottom: $margin/4;
+		}
+		margin-bottom: $margin;
+	}
+}
+
+
+// Image thumbs at bottom of pages
+.view-id-bfi_content_image_thumbs {
+	.view-header { @include post-date; }
+	tr {
+		td { padding-right: $margin; }
+		td.col-last { padding-right: 0; }
+	}
+	margin-bottom: $margin;
 }
 
 // Challenge Landing Page + Trimtab formatting
@@ -799,24 +851,8 @@ body.node-type-newsletter {
 		float: right;
 		width: 300px;
 	}
-	/*
-	.view-bfi-banner-images.view-display-id-section_name,
-	.view-bfi-banner-images.view-display-id-section_name2,
-	.view-bfi-banner-images.view-display-id-section_name3,
-	.view-bfi-banner-images.view-display-id-section_name4 {
-		div.views-row {
-			h1.section-name {
-				position: absolute;
-				line-height: 60px;
-				background-color: white;
-				z-index: 15;
-				padding: 0 $margin 0 0;
-				top: 140px;
-				left: 400px;
-			}
-		}
-	}*/
 }
+
 
 /* -----  Sidebars  ----- */
 
