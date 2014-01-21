@@ -274,6 +274,14 @@ p:last-of-type {
 	margin-bottom: 1em;
 }
 
+em, i {
+	font-style: italic;
+}
+
+strong {
+	@include dinb;
+}
+
 a {
 	text-decoration: none;
 	color: $color-red-dark;
