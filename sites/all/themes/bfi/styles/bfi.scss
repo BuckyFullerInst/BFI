@@ -753,6 +753,35 @@ body.section-about-fuller .region-content-bottom {
 	}
 }
 
+#block-views-bfi-lit-rbf-books-patents {
+	.views-row {
+		.text {
+			padding-right: $margin;
+			width: 560px;
+			.title { float: left; }
+			.patent {
+				float: right;
+				text-align: right;
+				@include content-title-small;
+				a { color: $gray-med; }
+				padding-left: $margin;
+			}
+			.dates {
+				clear: both;
+				padding-top: $margin;
+				.label {
+					font-style: italic;
+				}
+			}
+		}
+	}
+	.views-row-3 {
+		.issued {
+			display: none;
+		}
+	}
+}
+
 
 // Image thumbs at bottom of pages
 .view-id-bfi_content_image_thumbs {
