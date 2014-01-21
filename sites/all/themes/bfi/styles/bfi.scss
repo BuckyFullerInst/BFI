@@ -621,7 +621,8 @@ body.front #sidebar-second {
 #block-views-bfi-front-slideshow-bfc-supp,
 #block-views-bfi-front-slideshow-bfi-supp,
 .view-bfi-general-search,
-.view-bfi-lit-rbf-books {
+.view-bfi-lit-rbf-books,
+.view-bfi-people-lists {
 	width: $width-content;
 	.views-row {
 		overflow: hidden;
@@ -890,6 +891,49 @@ body.node-type-newsletter {
 	}
 }
 
+// People Names
+body.node-type-person .node-person .field-title-field {
+	@include interstateb;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.view-bfi-people-lists {
+	.views-row {
+		img { float: left; }
+		.text {
+			padding-right: 80px;
+			width: 500px;
+			.title { float: left; }
+			.position {
+				float: right;
+				text-align: right;
+				@include content-title-small;
+				color: $gray-med;
+				padding-left: $margin;
+			}
+			.contact {
+				color: $gray-med;
+				clear: both;
+				text-align: right;
+			}
+		}
+		p { margin-bottom: 0;}
+	}
+}
+
+body.node-type-person {
+	#sidebar-second li a.active-trail { background: url("../images/arrow-black4.png") no-repeat; }
+}
+
+body.page-node-227,
+body.page-node-228,
+body.page-node-229,
+body.page-node-230,
+body.page-node-231 {
+	#sidebar-second li.staff a { background: url("../images/arrow-black4.png") no-repeat; }
+}
 
 /* -----  Sidebars  ----- */
 
