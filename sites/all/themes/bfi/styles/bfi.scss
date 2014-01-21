@@ -265,7 +265,7 @@ h5, h6 {
 p {
 	margin-bottom: 1em;
 }
-
+/*
 p:first-of-type {
 	margin-top: 1em;
 }
@@ -273,7 +273,7 @@ p:first-of-type {
 p:last-of-type {
 	margin-bottom: 1em;
 }
-
+*/
 em, i {
 	font-style: italic;
 }
@@ -562,6 +562,19 @@ body.front #sidebar-second {
 				float: left;
 				margin: 0 $margin $margin 0;
 			}
+			img.image-content_alpha {
+				margin-bottom: $margin;
+			}
+			ul {
+				padding-left: 1em;
+				list-style-type: disc;
+				li {
+				}
+				margin-bottom: 1em;
+			}
+			h3 {
+				margin: $margin/3 0;
+			}
 		}
 	}
 }
@@ -840,11 +853,20 @@ body.node-type-newsletter .view-bfi-trimtab-sections {
 	margin-bottom: $margin;
 }
 
+
 body.page-node-93 {
+/*
 	.region-content-social {
 		display: none;
 	}
+*/
+	#block-views-bfc-landing-page-block {
+		border-top: 1px solid $gray-back;
+		padding-top: $margin;
+	}
 }
+
+
 
 // Trimtab formatting (See above for base)
 body.node-type-newsletter {
