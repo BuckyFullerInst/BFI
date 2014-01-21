@@ -77,7 +77,7 @@ body {
 body.node-type-page,
 body.node-type-blog-post {
 	#wrapper {
-		padding-bottom: 0;
+		//padding-bottom: 0;
 	} 
 }
 
@@ -272,6 +272,14 @@ p:first-of-type {
 
 p:last-of-type {
 	margin-bottom: 1em;
+}
+
+em, i {
+	font-style: italic;
+}
+
+strong {
+	@include dinb;
 }
 
 a {
@@ -584,68 +592,12 @@ body.front #sidebar-second {
 
 /* -----  Views  ----- */
 
+// Front Slideshow
 #views_slideshow_cycle_main_bfi_front_slideshow-block .views-slideshow-cycle-main-frame  {
 	height: 340px;
 }
 
-.view-bfi-submenu-listing,
-#block-views-bfi-front-slideshow-bfc-supp,
-#block-views-bfi-front-slideshow-bfi-supp,
-.view-bfi-general-search {
-	.views-row {
-		height: 220px;
-		width: $width-content;
-		background-color: $gray-back;
-		.field-image {
-			float: left;
-		}
-		.text {
-			.title a  {
-				@include content-title-med;
-			}
-			float: right;
-			height: 180px;
-			width: 250px;
-			margin: $margin 80px $margin $margin;
-			overflow: hidden;
-			p:first-of-type {
-				margin-top: 1em;
-			}
-		}
-		margin-bottom: $margin;
-	}
-}
-
-body.page-node-92 {
-	#block-views-bfi-submenu-listing-block {
-		border-top: 1px solid $gray-back;
-		padding-top: $margin;
-	}
-}
-
-
-#block-views-bfi-front-slideshow-bfc-supp,
-#block-views-bfi-front-slideshow-bfi-supp {
-	.views-row {
-		.field-image {
-			float: right;
-		}
-		.text {
-			float: left;
-		}
-		margin-bottom: 0;	
-	}
-}
-#block-views-bfi-front-slideshow-bfi-up,
-#block-views-bfi-front-slideshow-chall-up {
-	.views-row {
-		.text {
-			@include interstate;
-			a { color: $gray-dark; }
-		}
-	}
-}
-
+// Banner Images
 .view-bfi-banner-images.view-display-id-section_name,
 .view-bfi-banner-images.view-display-id-section_name2,
 .view-bfi-banner-images.view-display-id-section_name3,
@@ -664,13 +616,72 @@ body.page-node-92 {
 	}
 }
 
-.view-id-bfi_content_image_thumbs {
-	.view-header { @include post-date; }
-	tr {
-		td { padding-right: $margin; }
-		td.col-last { padding-right: 0; }
+// Common block-row formatting for Submenus, front supplementas, search, and literature sources
+.view-bfi-submenu-listing,
+#block-views-bfi-front-slideshow-bfc-supp,
+#block-views-bfi-front-slideshow-bfi-supp,
+.view-bfi-general-search,
+.view-bfi-lit-rbf-books,
+.view-bfi-people-lists {
+	width: $width-content;
+	.views-row {
+		overflow: hidden;
+		width: 100%;
+		background-color: $gray-back;
+		.field-content {
+			overflow: hidden;
+			width: 100%;
+		}
+		.field-image {
+			overflow: hidden;
+			float: left;
+		}
+		.text {
+			float: right;
+			padding-right: 80px;
+			.title, .title a  {
+				@include content-title-med;
+			}
+			margin: $margin 0 $margin $margin;
+			overflow: hidden;
+			p:first-of-type {
+				margin-top: 1em;
+			}
+		}
+		margin-bottom: $margin;
 	}
-	margin-bottom: $margin;
+}
+
+.view-bfi-submenu-listing,
+#block-views-bfi-front-slideshow-bfc-supp,
+#block-views-bfi-front-slideshow-bfi-supp,
+.view-bfi-general-search {
+	.views-row {
+		height: 220px;
+		.text {
+			height: 180px;
+			width: 250px;
+		}
+	}
+}
+
+// Submenu-specific
+body.page-node-92 {
+	#block-views-bfi-submenu-listing-block {
+		border-top: 1px solid $gray-back;
+		padding-top: $margin;
+	}
+}
+
+// Front Updates
+#block-views-bfi-front-slideshow-bfi-up,
+#block-views-bfi-front-slideshow-chall-up {
+	.views-row {
+		.text {
+			@include interstate;
+			a { color: $gray-dark; }
+		}
+	}
 }
 
 // General Search
@@ -710,6 +721,85 @@ body.page-node-92 {
 			margin: 0;
 		}
 	}
+}
+
+// Literature source lists
+body.section-about-fuller .region-content-bottom {
+	.block-title {
+		margin-top: $margin;
+		border-bottom: 2px solid $gray-back;
+		margin-bottom: $margin/2;
+		text-transform: lowercase;
+	}
+	#block-views-bfi-lit-rbf-books-intros,
+	#block-views-bfi-lit-rbf-books-forewords,
+	#block-views-bfi-lit-rbf-books-contributions {
+		.block-title {
+			text-transform: uppercase;
+		}
+	}
+}
+
+.view-bfi-lit-rbf-books {
+	.views-row {
+		img { float: left; }
+		.text {
+			width: 500px;
+		}
+		p { margin-bottom: 0; }
+	}
+}
+
+.view-bfi-lit-rbf-other {
+	.view-content {
+		h3 {
+			margin-top: $margin;
+			padding-bottom: $margin/4;
+			border-bottom: 2px solid $gray-back;
+			margin-bottom: $margin/4;
+		}
+		margin-bottom: $margin;
+	}
+}
+
+#block-views-bfi-lit-rbf-books-patents {
+	.views-row {
+		.text {
+			padding-right: $margin;
+			width: 560px;
+			.title { float: left; }
+			.patent {
+				float: right;
+				text-align: right;
+				@include content-title-small;
+				a { color: $gray-med; }
+				padding-left: $margin;
+			}
+			.dates {
+				clear: both;
+				padding-top: $margin;
+				.label {
+					font-style: italic;
+				}
+			}
+		}
+	}
+	.views-row-3 {
+		.issued {
+			display: none;
+		}
+	}
+}
+
+
+// Image thumbs at bottom of pages
+.view-id-bfi_content_image_thumbs {
+	.view-header { @include post-date; }
+	tr {
+		td { padding-right: $margin; }
+		td.col-last { padding-right: 0; }
+	}
+	margin-bottom: $margin;
 }
 
 // Challenge Landing Page + Trimtab formatting
@@ -799,23 +889,50 @@ body.node-type-newsletter {
 		float: right;
 		width: 300px;
 	}
-	/*
-	.view-bfi-banner-images.view-display-id-section_name,
-	.view-bfi-banner-images.view-display-id-section_name2,
-	.view-bfi-banner-images.view-display-id-section_name3,
-	.view-bfi-banner-images.view-display-id-section_name4 {
-		div.views-row {
-			h1.section-name {
-				position: absolute;
-				line-height: 60px;
-				background-color: white;
-				z-index: 15;
-				padding: 0 $margin 0 0;
-				top: 140px;
-				left: 400px;
+}
+
+// People Names
+body.node-type-person .node-person .field-title-field {
+	@include interstateb;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.view-bfi-people-lists {
+	.views-row {
+		img { float: left; }
+		.text {
+			padding-right: 80px;
+			width: 500px;
+			.title { float: left; }
+			.position {
+				float: right;
+				text-align: right;
+				@include content-title-small;
+				color: $gray-med;
+				padding-left: $margin;
+			}
+			.contact {
+				color: $gray-med;
+				clear: both;
+				text-align: right;
 			}
 		}
-	}*/
+		p { margin-bottom: 0;}
+	}
+}
+
+body.node-type-person {
+	#sidebar-second li a.active-trail { background: url("../images/arrow-black4.png") no-repeat; }
+}
+
+body.page-node-227,
+body.page-node-228,
+body.page-node-229,
+body.page-node-230,
+body.page-node-231 {
+	#sidebar-second li.staff a { background: url("../images/arrow-black4.png") no-repeat; }
 }
 
 /* -----  Sidebars  ----- */
@@ -1004,6 +1121,11 @@ body.node-type-article #sidebar-second .block-menu-block li.active-trail > a {
 body.node-type-page,
 body.node-type-blog-post,
 body.node-type-article,
+body.node-type-product,
+body.node-type-person,
+body.node-type-literature-source,
+body.node-type-webform,
+body.node-type-idea,
 body.page-search {
 	#sidebar-second {
 		margin-top: 270px;
@@ -1022,7 +1144,6 @@ body.page-search {
 		padding: $margin/2;
 		.block-facetapi {
 			.block-title {
-				text-transform: main-menu-item;
 				color: $gray-med;
 			}
 			ul {
@@ -1053,6 +1174,7 @@ footer {
 		overflow: hidden;
 	}
 	background-color: $gray-back;
+	.region { display: inline-block; }
 	.region-footer-left, .region-footer-right {
 		font-size: 12px;
 		line-height: 18px;
@@ -1110,6 +1232,25 @@ footer {
 			}
 		}
 	}
+	.region-footer-bottom {
+		clear: both;
+		width: 100%;
+		margin: $margin $margin/2 0;
+		@include post-date;
+		p {
+			margin: 0;
+			padding-bottom: 4px;
+		}
+		#block-views-bfi-footer-views-sponsors {
+			.views-row {
+				display: inline-block;
+				margin-right: 20px;
+			}
+		}
+
+	}
+
+
 
 }
 
