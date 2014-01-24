@@ -265,7 +265,7 @@ h5, h6 {
 p {
 	margin-bottom: 1em;
 }
-
+/*
 p:first-of-type {
 	margin-top: 1em;
 }
@@ -273,7 +273,7 @@ p:first-of-type {
 p:last-of-type {
 	margin-bottom: 1em;
 }
-
+*/
 em, i {
 	font-style: italic;
 }
@@ -323,7 +323,7 @@ form {
 	}
 }
 
-.post-date {
+.region-content-attribution, .attribution, .post-date {
 	@include post-date;
 }
 
@@ -556,6 +556,32 @@ body.front #sidebar-second {
 .region-content {
 	width: 600px;
 	float: left;
+	.node {
+		.field-body {
+			line-height: 17px;
+			img.image-content_beta {
+				float: left;
+				margin: 0 $margin $margin 0;
+			}
+			img.image-content_alpha {
+				margin-bottom: $margin;
+			}
+			ul, ol { list-style-type: disc; margin-bottom: 1em; }
+			ul { list-style-type: disc; padding-left: 1em; }
+			ol { list-style-type: decimal; padding-left: 1.5em; }
+			h3 {
+				margin: 1em 0 .75em;
+			}
+			hr {
+				border: 1px solid $gray-back;
+				margin: 1em 0;
+			}
+		}
+		.field-external-file {
+			margin-top: $margin;
+		}
+	}
+	margin-bottom: $margin/2;
 }
 .region-content-social {
 	margin: $margin 0;
@@ -665,6 +691,13 @@ body.front #sidebar-second {
 	}
 }
 
+#block-views-bfi-front-slideshow-bfc-supp,
+#block-views-bfi-front-slideshow-bfi-supp {
+	.views-row {
+		.text { float: left; }
+	}
+}
+
 // Submenu-specific
 body.page-node-92 {
 	#block-views-bfi-submenu-listing-block {
@@ -762,22 +795,20 @@ body.section-about-fuller .region-content-bottom {
 	}
 }
 
-#block-views-bfi-lit-rbf-books-patents {
+#block-views-bfi-lit-rbf-books-patents-20s,
+#block-views-bfi-lit-rbf-books-patents-30s,
+#block-views-bfi-lit-rbf-books-patents-40s,
+#block-views-bfi-lit-rbf-books-patents-50s,
+#block-views-bfi-lit-rbf-books-patents-60s,
+#block-views-bfi-lit-rbf-books-patents-70s,
+#block-views-bfi-lit-rbf-books-patents-80s {
 	.views-row {
 		.text {
-			padding-right: $margin;
-			width: 560px;
-			.title { float: left; }
+			padding-right: 80px;
+			width: 500px;
 			.patent {
-				float: right;
-				text-align: right;
-				@include content-title-small;
-				a { color: $gray-med; }
-				padding-left: $margin;
 			}
 			.dates {
-				clear: both;
-				padding-top: $margin;
 				.label {
 					font-style: italic;
 				}
@@ -834,11 +865,20 @@ body.node-type-newsletter .view-bfi-trimtab-sections {
 	margin-bottom: $margin;
 }
 
+
 body.page-node-93 {
+/*
 	.region-content-social {
 		display: none;
 	}
+*/
+	#block-views-bfc-landing-page-block {
+		border-top: 1px solid $gray-back;
+		padding-top: $margin;
+	}
 }
+
+
 
 // Trimtab formatting (See above for base)
 body.node-type-newsletter {
@@ -905,6 +945,11 @@ body.node-type-person .node-person .field-title-field {
 		.text {
 			padding-right: 80px;
 			width: 500px;
+			.name-bar {
+				width: 100%;
+				overflow: hidden;
+				position: relative;
+			}
 			.title { float: left; }
 			.position {
 				float: right;
@@ -918,21 +963,35 @@ body.node-type-person .node-person .field-title-field {
 				clear: both;
 				text-align: right;
 			}
+			.body {
+				clear: both;
+			}
 		}
 		p { margin-bottom: 0;}
 	}
 }
 
-body.node-type-person {
-	#sidebar-second li a.active-trail { background: url("../images/arrow-black4.png") no-repeat; }
-}
-
+// Getting Staff indicator to light up when looking at staff
 body.page-node-227,
 body.page-node-228,
 body.page-node-229,
 body.page-node-230,
 body.page-node-231 {
 	#sidebar-second li.staff a { background: url("../images/arrow-black4.png") no-repeat; }
+}
+
+// Getting Board indicator to light up when looking at board
+body.page-node-232,
+body.page-node-233,
+body.page-node-234,
+body.page-node-235,
+body.page-node-236,
+body.page-node-237,
+body.page-node-238,
+body.page-node-239,
+body.page-node-240,
+body.page-node-241 {
+	#sidebar-second li.board a { background: url("../images/arrow-black4.png") no-repeat; }
 }
 
 /* -----  Sidebars  ----- */
