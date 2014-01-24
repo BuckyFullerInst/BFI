@@ -795,6 +795,7 @@ body.section-about-fuller .region-content-bottom {
 	}
 }
 
+// Patents
 #block-views-bfi-lit-rbf-books-patents-20s,
 #block-views-bfi-lit-rbf-books-patents-30s,
 #block-views-bfi-lit-rbf-books-patents-40s,
@@ -815,13 +816,13 @@ body.section-about-fuller .region-content-bottom {
 			}
 		}
 	}
-	.views-row-3 {
-		.issued {
-			display: none;
-		}
-	}
 }
 
+// Patents that weren't awarded
+#block-views-bfi-lit-rbf-books-patents-20s .views-row-3,
+#block-views-bfi-lit-rbf-books-patents-60s .views-row-5 {
+	.issued { display: none; }
+}
 
 // Image thumbs at bottom of pages
 .view-id-bfi_content_image_thumbs {
