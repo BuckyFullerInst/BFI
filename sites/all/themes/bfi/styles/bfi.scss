@@ -446,7 +446,9 @@ html {
 
 body.front #header section.block-nice-menus li.home > a,
 body.section-challenge #header section.block-nice-menus li.challenge > a,
-body.section-dymaxion-forum #header section.block-nice-menus li.dymaxion-forum > a {
+body.section-dymaxion-forum #header section.block-nice-menus li.dymaxion-forum > a,
+body.section-trimtab #header section.block-nice-menus li.trimtab > a, 
+body.node-type-newsletter #header section.block-nice-menus li.trimtab > a {
 	color: $link-active-menu;
 }
 
@@ -883,7 +885,7 @@ body.page-node-93 {
 
 // Trimtab formatting (See above for base)
 body.node-type-newsletter {
-	.region-content-social, #page-title { display: none; }
+	.region-content-social, #page-title, #sidebar-second { display: none; }
 
 	.region-content-bottom { width: 940px; }
 
@@ -910,6 +912,7 @@ body.node-type-newsletter {
 					.field-title-field {
 						@include content-title-small;
 					}
+					.field-body { margin-top: 1em; }
 				}
 			}
 			tr.row-last {
@@ -1069,8 +1072,14 @@ body.page-node-241 {
 						padding-left: $margin * .75;
 						color: black;
 					}
+
+					// Account for space under other view's rows in sidebar
+					.view-display-id-tt_menu .views-row { margin-bottom: 0; }
 				}
-				li.active > a, li > a:hover { background: url("../images/arrow-black4.png") no-repeat; }
+
+				li.active > a, li > a:hover,
+				.view-display-id-tt_menu .views-row a:hover { background: url("../images/arrow-black4.png") no-repeat; }
+				
 				li  ul {
 					li {
 						a {

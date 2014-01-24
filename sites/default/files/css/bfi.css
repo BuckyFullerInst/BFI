@@ -391,13 +391,13 @@ html {
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'451';}}
-body.front #header section.block-nice-menus li.home > a, body.section-challenge #header section.block-nice-menus li.challenge > a, body.section-dymaxion-forum #header section.block-nice-menus li.dymaxion-forum > a {
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'453';}}
+body.front #header section.block-nice-menus li.home > a, body.section-challenge #header section.block-nice-menus li.challenge > a, body.section-dymaxion-forum #header section.block-nice-menus li.dymaxion-forum > a, body.section-trimtab #header section.block-nice-menus li.trimtab > a, body.node-type-newsletter #header section.block-nice-menus li.trimtab > a {
   color: black;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'455';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'457';}}
 ul.tabs {
   margin-top: -21px;
   margin-left: 0;
@@ -406,7 +406,7 @@ ul.tabs {
   border: 0 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'461';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'463';}}
 ul.tabs li a {
   padding: 3px 1em;
   border: 0 !important;
@@ -419,7 +419,7 @@ ul.tabs li a {
   margin-right: 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'469';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'471';}}
 ul.tabs li a:hover, ul.tabs li a.active, ul.tabs li a.active-trail {
   color: black;
   background-color: white;
@@ -430,7 +430,7 @@ ul.tabs li a:hover, ul.tabs li a.active, ul.tabs li a.active-trail {
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'476';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'478';}}
 h2#page-title {
   line-height: 24px;
   margin: 20px 0 0;
@@ -440,7 +440,7 @@ h2#page-title {
 /*
  * -----  Front Page  -----
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'482';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'484';}}
 #block-block-3, #block-block-4 {
   height: 60px;
   width: 700px;
@@ -448,7 +448,7 @@ h2#page-title {
   background-color: #3f6e82;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'487';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'489';}}
 #block-block-3 h2 a, #block-block-4 h2 a {
   font-family: interstateregular, pfdintextpro_regular, Interstate, DIN, Gotham;
   line-height: 60px;
@@ -458,32 +458,32 @@ h2#page-title {
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'496';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'498';}}
 #block-block-4 {
   background-color: #97c64e;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'500';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'501';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'502';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'503';}}
 .region-content .block {
   margin-top: 20px;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'508';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'510';}}
 #block-views-bfi-front-slideshow-bfi-up, #block-views-bfi-front-slideshow-chall-up {
   width: 700px;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'513';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'515';}}
 .view-display-id-bfi_up, .view-display-id-chall_up {
   overflow: hidden;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'517';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'519';}}
 .view-display-id-bfi_up > .attachment-before, .view-display-id-chall_up > .attachment-before {
   width: 460px;
   height: 290px;
@@ -491,7 +491,7 @@ h2#page-title {
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'523';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'525';}}
 .view-display-id-bfi_up > .view-content, .view-display-id-chall_up > .view-content {
   width: 200px;
   height: 290px;
@@ -500,16 +500,16 @@ h2#page-title {
   background-color: #f0f0f0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'529';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'531';}}
 .view-display-id-bfi_up > .view-content .views-row, .view-display-id-chall_up > .view-content .views-row {
   height: 60px;
   margin: 10px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'532';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'534';}}
 .view-display-id-bfi_up > .view-content .views-row .image, .view-display-id-chall_up > .view-content .views-row .image {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'535';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'537';}}
 .view-display-id-bfi_up > .view-content .views-row .text, .view-display-id-chall_up > .view-content .views-row .text {
   float: right;
   width: 110px;
@@ -517,13 +517,13 @@ h2#page-title {
   height: 60px;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'541';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'543';}}
 .view-display-id-bfi_up > .view-content .views-row .text a, .view-display-id-chall_up > .view-content .views-row .text a {
   color: black;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'548';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'550';}}
 body.front #sidebar-second {
   margin-top: 340px;
 }
@@ -532,64 +532,64 @@ body.front #sidebar-second {
 /*
  * -----  Content  -----
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'554';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'556';}}
 .messages, .region-content {
   width: 638px;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'558';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'560';}}
 .region-content {
   width: 600px;
   float: left;
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'561';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'562';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'563';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'564';}}
 .region-content .node .field-body {
   line-height: 17px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'564';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'566';}}
 .region-content .node .field-body img.image-content_beta {
   float: left;
   margin: 0 20px 20px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'568';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'570';}}
 .region-content .node .field-body img.image-content_alpha {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'571';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'573';}}
 .region-content .node .field-body ul, .region-content .node .field-body ol {
   list-style-type: disc;
   margin-bottom: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'572';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'574';}}
 .region-content .node .field-body ul {
   list-style-type: disc;
   padding-left: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'573';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'575';}}
 .region-content .node .field-body ol {
   list-style-type: decimal;
   padding-left: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'574';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'576';}}
 .region-content .node .field-body h3 {
   margin: 1em 0 0.75em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'577';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'579';}}
 .region-content .node .field-body hr {
   border: 1px solid #f0f0f0;
   margin: 1em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'582';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'584';}}
 .region-content .node .field-external-file {
   margin-top: 20px;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'588';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'590';}}
 .region-content-social {
   margin: 20px 0;
   float: right;
@@ -597,12 +597,12 @@ body.front #sidebar-second {
   border-left: 1px solid #f0f0f0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'593';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'595';}}
 .region-content-social .block {
   padding-left: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'596';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'598';}}
 .region-content-social .block-title {
   font-family: pfdintextpro_regular, DIN, Gotham;
   font-size: 12px;
@@ -610,27 +610,27 @@ body.front #sidebar-second {
   color: #111111;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'599';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'600';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'601';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'602';}}
 .region-content-social .easy_social_box .fb-like.fb_edge_widget_with_comment.fb_iframe_widget {
   height: 21px;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'603';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'605';}}
 .region-content-social .easy_social_box .fb-like.fb_edge_widget_with_comment.fb_iframe_widget iframe {
   margin-top: -40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'607';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'609';}}
 .region-content-social .easy_social_box .easy_social-widget {
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'610';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'612';}}
 .region-content-social .easy_social_box .easy_social-widget.last {
   margin: 0;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'616';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'618';}}
 .region-content-bottom {
   clear: both;
 }
@@ -639,18 +639,18 @@ body.front #sidebar-second {
 /*
  * -----  Views  -----
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'624';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'626';}}
 #views_slideshow_cycle_main_bfi_front_slideshow-block .views-slideshow-cycle-main-frame {
   height: 340px;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'634';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'635';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'636';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'637';}}
 .view-bfi-banner-images.view-display-id-section_name div.views-row, .view-bfi-banner-images.view-display-id-section_name2 div.views-row, .view-bfi-banner-images.view-display-id-section_name3 div.views-row, .view-bfi-banner-images.view-display-id-section_name4 div.views-row, .view-bfi-banner-images.view-display-id-search_title div.views-row, .view-bfi-banner-images.view-display-id-section_trimtab div.views-row {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'637';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'639';}}
 .view-bfi-banner-images.view-display-id-section_name div.views-row h1.section-name, .view-bfi-banner-images.view-display-id-section_name2 div.views-row h1.section-name, .view-bfi-banner-images.view-display-id-section_name3 div.views-row h1.section-name, .view-bfi-banner-images.view-display-id-section_name4 div.views-row h1.section-name, .view-bfi-banner-images.view-display-id-search_title div.views-row h1.section-name, .view-bfi-banner-images.view-display-id-section_trimtab div.views-row h1.section-name {
   position: absolute;
   line-height: 60px;
@@ -660,36 +660,36 @@ body.front #sidebar-second {
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'653';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'655';}}
 .view-bfi-submenu-listing, #block-views-bfi-front-slideshow-bfc-supp, #block-views-bfi-front-slideshow-bfi-supp, .view-bfi-general-search, .view-bfi-lit-rbf-books, .view-bfi-people-lists {
   width: 700px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'655';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'657';}}
 .view-bfi-submenu-listing .views-row, #block-views-bfi-front-slideshow-bfc-supp .views-row, #block-views-bfi-front-slideshow-bfi-supp .views-row, .view-bfi-general-search .views-row, .view-bfi-lit-rbf-books .views-row, .view-bfi-people-lists .views-row {
   overflow: hidden;
   width: 100%;
   background-color: #f0f0f0;
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'659';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'661';}}
 .view-bfi-submenu-listing .views-row .field-content, #block-views-bfi-front-slideshow-bfc-supp .views-row .field-content, #block-views-bfi-front-slideshow-bfi-supp .views-row .field-content, .view-bfi-general-search .views-row .field-content, .view-bfi-lit-rbf-books .views-row .field-content, .view-bfi-people-lists .views-row .field-content {
   overflow: hidden;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'663';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'665';}}
 .view-bfi-submenu-listing .views-row .field-image, #block-views-bfi-front-slideshow-bfc-supp .views-row .field-image, #block-views-bfi-front-slideshow-bfi-supp .views-row .field-image, .view-bfi-general-search .views-row .field-image, .view-bfi-lit-rbf-books .views-row .field-image, .view-bfi-people-lists .views-row .field-image {
   overflow: hidden;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'667';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'669';}}
 .view-bfi-submenu-listing .views-row .text, #block-views-bfi-front-slideshow-bfc-supp .views-row .text, #block-views-bfi-front-slideshow-bfi-supp .views-row .text, .view-bfi-general-search .views-row .text, .view-bfi-lit-rbf-books .views-row .text, .view-bfi-people-lists .views-row .text {
   float: right;
   padding-right: 80px;
   margin: 20px 0 20px 20px;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'670';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'672';}}
 .view-bfi-submenu-listing .views-row .text .title, .view-bfi-submenu-listing .views-row .text .title a, #block-views-bfi-front-slideshow-bfc-supp .views-row .text .title, #block-views-bfi-front-slideshow-bfc-supp .views-row .text .title a, #block-views-bfi-front-slideshow-bfi-supp .views-row .text .title, #block-views-bfi-front-slideshow-bfi-supp .views-row .text .title a, .view-bfi-general-search .views-row .text .title, .view-bfi-general-search .views-row .text .title a, .view-bfi-lit-rbf-books .views-row .text .title, .view-bfi-lit-rbf-books .views-row .text .title a, .view-bfi-people-lists .views-row .text .title, .view-bfi-people-lists .views-row .text .title a {
   font-family: interstatebold, pfdintextpro_bold, Interstate, DIN, Gotham;
   text-transform: uppercase;
@@ -697,70 +697,70 @@ body.front #sidebar-second {
   line-height: 18px;
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'675';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'677';}}
 .view-bfi-submenu-listing .views-row .text p:first-of-type, #block-views-bfi-front-slideshow-bfc-supp .views-row .text p:first-of-type, #block-views-bfi-front-slideshow-bfi-supp .views-row .text p:first-of-type, .view-bfi-general-search .views-row .text p:first-of-type, .view-bfi-lit-rbf-books .views-row .text p:first-of-type, .view-bfi-people-lists .views-row .text p:first-of-type {
   margin-top: 1em;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'686';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'687';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'688';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'689';}}
 .view-bfi-submenu-listing .views-row, #block-views-bfi-front-slideshow-bfc-supp .views-row, #block-views-bfi-front-slideshow-bfi-supp .views-row, .view-bfi-general-search .views-row {
   height: 220px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'689';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'691';}}
 .view-bfi-submenu-listing .views-row .text, #block-views-bfi-front-slideshow-bfc-supp .views-row .text, #block-views-bfi-front-slideshow-bfi-supp .views-row .text, .view-bfi-general-search .views-row .text {
   height: 180px;
   width: 250px;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'697';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'698';}}
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'699';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'700';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'701';}}
 #block-views-bfi-front-slideshow-bfc-supp .views-row .text, #block-views-bfi-front-slideshow-bfi-supp .views-row .text {
   float: left;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'704';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'705';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'706';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'707';}}
 body.page-node-92 #block-views-bfi-submenu-listing-block {
   border-top: 1px solid #f0f0f0;
   padding-top: 20px;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'713';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'714';}}
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'715';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'716';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'717';}}
 #block-views-bfi-front-slideshow-bfi-up .views-row .text, #block-views-bfi-front-slideshow-chall-up .views-row .text {
   font-family: interstateregular, pfdintextpro_regular, Interstate, DIN, Gotham;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'717';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'719';}}
 #block-views-bfi-front-slideshow-bfi-up .views-row .text a, #block-views-bfi-front-slideshow-chall-up .views-row .text a {
   color: #111111;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'723';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'724';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'725';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'726';}}
 .view-bfi-general-search .views-row {
   height: 140px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'727';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'729';}}
 .view-bfi-general-search .views-row .text {
   height: 98px;
   width: 380px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'731';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'733';}}
 .view-bfi-general-search .views-row .content-type {
   position: absolute;
   top: 0;
   left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'735';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'737';}}
 .view-bfi-general-search .views-row .content-type a {
   padding: 10px;
   display: block;
@@ -776,24 +776,24 @@ body.page-node-92 #block-views-bfi-submenu-listing-block {
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'749';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'751';}}
 .item-list {
   width: 700px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'751';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'752';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'753';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'754';}}
 .item-list ul.pager li {
   margin: 0 0 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'755';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'757';}}
 .item-list ul.pager li.first {
   margin: 0;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'762';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'763';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'764';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'765';}}
 body.section-about-fuller .region-content-bottom .block-title {
   margin-top: 20px;
   border-bottom: 2px solid #f0f0f0;
@@ -801,35 +801,35 @@ body.section-about-fuller .region-content-bottom .block-title {
   text-transform: lowercase;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'771';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'772';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'773';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'774';}}
 body.section-about-fuller .region-content-bottom #block-views-bfi-lit-rbf-books-intros .block-title, body.section-about-fuller .region-content-bottom #block-views-bfi-lit-rbf-books-forewords .block-title, body.section-about-fuller .region-content-bottom #block-views-bfi-lit-rbf-books-contributions .block-title {
   text-transform: uppercase;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'778';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'779';}}
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'780';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'781';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'782';}}
 .view-bfi-lit-rbf-books .views-row img {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'781';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'783';}}
 .view-bfi-lit-rbf-books .views-row .text {
   width: 500px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'784';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'786';}}
 .view-bfi-lit-rbf-books .views-row p {
   margin-bottom: 0;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'788';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'789';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'790';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'791';}}
 .view-bfi-lit-rbf-other .view-content {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'790';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'792';}}
 .view-bfi-lit-rbf-other .view-content h3 {
   margin-top: 20px;
   padding-bottom: 5px;
@@ -838,63 +838,63 @@ body.section-about-fuller .region-content-bottom #block-views-bfi-lit-rbf-books-
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'807';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'808';}}
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'809';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'810';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'811';}}
 #block-views-bfi-lit-rbf-books-patents-20s .views-row .text, #block-views-bfi-lit-rbf-books-patents-30s .views-row .text, #block-views-bfi-lit-rbf-books-patents-40s .views-row .text, #block-views-bfi-lit-rbf-books-patents-50s .views-row .text, #block-views-bfi-lit-rbf-books-patents-60s .views-row .text, #block-views-bfi-lit-rbf-books-patents-70s .views-row .text, #block-views-bfi-lit-rbf-books-patents-80s .views-row .text {
   padding-right: 80px;
   width: 500px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'812';}}
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'814';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'815';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'816';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'817';}}
 #block-views-bfi-lit-rbf-books-patents-20s .views-row .text .dates .label, #block-views-bfi-lit-rbf-books-patents-30s .views-row .text .dates .label, #block-views-bfi-lit-rbf-books-patents-40s .views-row .text .dates .label, #block-views-bfi-lit-rbf-books-patents-50s .views-row .text .dates .label, #block-views-bfi-lit-rbf-books-patents-60s .views-row .text .dates .label, #block-views-bfi-lit-rbf-books-patents-70s .views-row .text .dates .label, #block-views-bfi-lit-rbf-books-patents-80s .views-row .text .dates .label {
   font-style: italic;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'825';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'826';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'827';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'828';}}
 #block-views-bfi-lit-rbf-books-patents-20s .views-row-3 .issued, #block-views-bfi-lit-rbf-books-patents-60s .views-row-5 .issued {
   display: none;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'830';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'832';}}
 .view-id-bfi_content_image_thumbs {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'831';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'833';}}
 .view-id-bfi_content_image_thumbs .view-header {
   font-style: italic;
   font-size: 12px;
   color: #777777;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'832';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'833';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'834';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'835';}}
 .view-id-bfi_content_image_thumbs tr td {
   padding-right: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'834';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'836';}}
 .view-id-bfi_content_image_thumbs tr td.col-last {
   padding-right: 0;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'841';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'843';}}
 body.page-node-93 #block-views-bfc-landing-page-block, body.node-type-newsletter .view-bfi-trimtab-sections {
   padding-bottom: 20px;
   border-bottom: 1px solid #f0f0f0;
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'842';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'844';}}
 body.page-node-93 #block-views-bfc-landing-page-block .view-content, body.node-type-newsletter .view-bfi-trimtab-sections .view-content {
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'844';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'846';}}
 body.page-node-93 #block-views-bfc-landing-page-block .view-content td, body.node-type-newsletter .view-bfi-trimtab-sections .view-content td {
   vertical-align: top;
   background-color: #f0f0f0;
@@ -902,17 +902,17 @@ body.page-node-93 #block-views-bfc-landing-page-block .view-content td, body.nod
   height: 0px;
   border-right: 20px solid white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'850';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'852';}}
 body.page-node-93 #block-views-bfc-landing-page-block .view-content td .image, body.node-type-newsletter .view-bfi-trimtab-sections .view-content td .image {
   width: 220px;
   height: 140px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'854';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'856';}}
 body.page-node-93 #block-views-bfc-landing-page-block .view-content td .views-field-nothing, body.node-type-newsletter .view-bfi-trimtab-sections .view-content td .views-field-nothing {
   margin: 10px 20px;
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'857';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'859';}}
 body.page-node-93 #block-views-bfc-landing-page-block .view-content td .views-field-nothing .title a, body.node-type-newsletter .view-bfi-trimtab-sections .view-content td .views-field-nothing .title a {
   font-family: interstatebold, pfdintextpro_bold, Interstate, DIN, Gotham;
   text-transform: uppercase;
@@ -920,13 +920,13 @@ body.page-node-93 #block-views-bfc-landing-page-block .view-content td .views-fi
   line-height: 18px;
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'862';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'864';}}
 body.page-node-93 #block-views-bfc-landing-page-block .view-content td.col-last, body.node-type-newsletter .view-bfi-trimtab-sections .view-content td.col-last {
   border: 0;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'872';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'874';}}
 body.page-node-93 {
   /*
  * .region-content-social {
@@ -936,29 +936,29 @@ body.page-node-93 {
 
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'878';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'880';}}
 body.page-node-93 #block-views-bfc-landing-page-block {
   border-top: 1px solid #f0f0f0;
   padding-top: 20px;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'887';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'888';}}
-body.node-type-newsletter .region-content-social, body.node-type-newsletter #page-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'889';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'890';}}
+body.node-type-newsletter .region-content-social, body.node-type-newsletter #page-title, body.node-type-newsletter #sidebar-second {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'890';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'892';}}
 body.node-type-newsletter .region-content-bottom {
   width: 940px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'892';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'894';}}
 body.node-type-newsletter .region-content-bottom .block {
   margin-top: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'894';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'896';}}
 body.node-type-newsletter .region-content-bottom .block .block-title {
   width: 100%;
   border-bottom: 2px solid #f0f0f0;
@@ -967,23 +967,23 @@ body.node-type-newsletter .region-content-bottom .block .block-title {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'903';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'905';}}
 body.node-type-newsletter .view-bfi-trimtab-sections {
   border: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'904';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'905';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'906';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'907';}}
 body.node-type-newsletter .view-bfi-trimtab-sections .view-content tr {
   border-bottom: 20px solid white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'907';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'908';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'909';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'910';}}
 body.node-type-newsletter .view-bfi-trimtab-sections .view-content tr td .image {
   width: 300px;
   height: 190px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'912';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'914';}}
 body.node-type-newsletter .view-bfi-trimtab-sections .view-content tr td .field-title-field {
   font-family: interstatebold, pfdintextpro_bold, Interstate, DIN, Gotham;
   text-transform: uppercase;
@@ -992,25 +992,29 @@ body.node-type-newsletter .view-bfi-trimtab-sections .view-content tr td .field-
   color: black;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'917';}}
+body.node-type-newsletter .view-bfi-trimtab-sections .view-content tr td .field-body {
+  margin-top: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'920';}}
 body.node-type-newsletter .view-bfi-trimtab-sections .view-content tr.row-last {
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'926';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'929';}}
 body.node-type-newsletter #block-views-bfi-trimtab-sections-project, body.node-type-newsletter #block-views-bfi-trimtab-sections-store {
   float: left;
   width: 300px;
   margin-right: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'931';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'934';}}
 body.node-type-newsletter #block-block-10 {
   float: right;
   width: 300px;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'938';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'941';}}
 body.node-type-person .node-person .field-title-field {
   font-family: interstatebold, pfdintextpro_bold, Interstate, DIN, Gotham;
   text-transform: uppercase;
@@ -1019,28 +1023,28 @@ body.node-type-person .node-person .field-title-field {
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'945';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'946';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'947';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'948';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'949';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'950';}}
 .view-bfi-people-lists .views-row img {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'948';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'951';}}
 .view-bfi-people-lists .views-row .text {
   padding-right: 80px;
   width: 500px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'951';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'954';}}
 .view-bfi-people-lists .views-row .text .name-bar {
   width: 100%;
   overflow: hidden;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'956';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'959';}}
 .view-bfi-people-lists .views-row .text .title {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'957';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'960';}}
 .view-bfi-people-lists .views-row .text .position {
   float: right;
   text-align: right;
@@ -1052,31 +1056,31 @@ body.node-type-person .node-person .field-title-field {
   color: #777777;
   padding-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'964';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'967';}}
 .view-bfi-people-lists .views-row .text .contact {
   color: #777777;
   clear: both;
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'969';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'972';}}
 .view-bfi-people-lists .views-row .text .body {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'973';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'976';}}
 .view-bfi-people-lists .views-row p {
   margin-bottom: 0;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'982';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'983';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'985';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'986';}}
 body.page-node-227 #sidebar-second li.staff a, body.page-node-228 #sidebar-second li.staff a, body.page-node-229 #sidebar-second li.staff a, body.page-node-230 #sidebar-second li.staff a, body.page-node-231 #sidebar-second li.staff a {
   background: url('/sites/all/themes/bfi/images/arrow-black4.png') no-repeat;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'996';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'997';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'999';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1000';}}
 body.page-node-232 #sidebar-second li.board a, body.page-node-233 #sidebar-second li.board a, body.page-node-234 #sidebar-second li.board a, body.page-node-235 #sidebar-second li.board a, body.page-node-236 #sidebar-second li.board a, body.page-node-237 #sidebar-second li.board a, body.page-node-238 #sidebar-second li.board a, body.page-node-239 #sidebar-second li.board a, body.page-node-240 #sidebar-second li.board a, body.page-node-241 #sidebar-second li.board a {
   background: url('/sites/all/themes/bfi/images/arrow-black4.png') no-repeat;
 }
@@ -1085,55 +1089,55 @@ body.page-node-232 #sidebar-second li.board a, body.page-node-233 #sidebar-secon
 /*
  * -----  Sidebars  -----
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1002';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1005';}}
 #main, #sidebar-second {
   margin-left: 0;
   margin-right: 0;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1007';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1010';}}
 #sidebar-second {
   background-color: white;
   width: 220px;
   padding-left: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1011';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1014';}}
 #sidebar-second p {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1012';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1015';}}
 #sidebar-second div.region-sidebar-second {
   margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1014';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1017';}}
 #sidebar-second div.region-sidebar-second .block {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1016';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1019';}}
 #sidebar-second div.region-sidebar-second .block .block-title {
   font-family: pfdintextpro_regular, DIN, Gotham;
   font-size: 12px;
   line-height: 15px;
   color: #111111;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1020';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1023';}}
 #sidebar-second div.region-sidebar-second section.block {
   border-bottom: 1px solid #f0f0f0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1023';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1026';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-sidebar-views-block-1 {
   border: 0 !important;
   margin-bottom: 0 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1027';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1030';}}
 #sidebar-second div.region-sidebar-second section.block-last {
   border: 0;
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1032';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1035';}}
 #sidebar-second div.region-sidebar-second .sidebar-text {
   text-transform: uppercase;
   font-family: interstateregular, pfdintextpro_regular, Interstate, DIN, Gotham;
@@ -1142,29 +1146,29 @@ body.page-node-232 #sidebar-second li.board a, body.page-node-233 #sidebar-secon
   width: 100%;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1039';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1042';}}
 #sidebar-second div.region-sidebar-second .sidebar-text a {
   color: white;
   padding: 30px 0;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1045';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1048';}}
 #sidebar-second div.region-sidebar-second #block-block-5 {
   background-color: #eb3f24;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1048';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1051';}}
 #sidebar-second div.region-sidebar-second #block-block-6 {
   background-color: #e49541;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1054';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1057';}}
 #sidebar-second div.region-sidebar-second .block-menu-block, #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block {
   border: 10px solid #f0f0f0;
   padding: 10px;
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1060';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1061';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1062';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1063';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1064';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1065';}}
 #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li.leaf, #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li.collapsed, #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li.expanded {
   margin-left: 5px;
   font-family: eames_century_modernbold;
@@ -1176,23 +1180,27 @@ body.page-node-232 #sidebar-second li.board a, body.page-node-233 #sidebar-secon
   padding-top: 3px;
   padding-bottom: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1068';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1071';}}
 #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li.leaf a, #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li.collapsed a, #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li.expanded a {
   width: 170px;
   display: inline-block;
   padding-left: 15px;
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1075';}}
-#sidebar-second div.region-sidebar-second .block-menu-block ul.menu li.active > a, #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li > a:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1079';}}
+#sidebar-second div.region-sidebar-second .block-menu-block ul.menu li.leaf .view-display-id-tt_menu .views-row, #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li.collapsed .view-display-id-tt_menu .views-row, #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li.expanded .view-display-id-tt_menu .views-row {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1083';}}
+#sidebar-second div.region-sidebar-second .block-menu-block ul.menu li.active > a, #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li > a:hover, #sidebar-second div.region-sidebar-second .block-menu-block ul.menu .view-display-id-tt_menu .views-row a:hover {
   background: url('/sites/all/themes/bfi/images/arrow-black4.png') no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1076';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1085';}}
 #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li  ul {
   margin-left: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1077';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1078';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1086';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1087';}}
 #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li  ul li a {
   color: #777777 !important;
   text-transform: uppercase;
@@ -1201,34 +1209,34 @@ body.page-node-232 #sidebar-second li.board a, body.page-node-233 #sidebar-secon
   letter-spacing: 0;
   max-width: 155px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1084';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1093';}}
 #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li  ul li ul {
   margin-left: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1085';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1086';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1094';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1095';}}
 #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li  ul li ul li a {
   max-width: 140px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1091';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1100';}}
 #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li  ul li.first {
   padding-top: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1092';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1101';}}
 #sidebar-second div.region-sidebar-second .block-menu-block ul.menu li  ul li.last {
   padding-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1098';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1099';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1107';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1108';}}
 #sidebar-second div.region-sidebar-second .view-bfi-sidebar-views .views-row {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1102';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1103';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1111';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1112';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row {
   margin-left: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1105';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1114';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .discipline {
   font-family: eames_century_modernbold;
   text-transform: uppercase;
@@ -1236,161 +1244,161 @@ body.page-node-232 #sidebar-second li.board a, body.page-node-233 #sidebar-secon
   line-height: 15px;
   letter-spacing: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1107';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1116';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .discipline a {
   color: black;
   padding-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1111';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1120';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .discipline a:hover {
   width: 170px;
   height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px 0px no-repeat;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px 0px no-repeat;
   background-repeat: no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1116';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1125';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .hyphies {
   font-family: pfdintextpro_bold, DIN, Gotham;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1117';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1126';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .number, #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .units {
   color: #777777;
   text-transform: uppercase;
   font-size: 9px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1122';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1123';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1131';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1132';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .Art .hyphies {
   color: #eb3f24;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1124';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1133';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .Art .discipline a:hover {
   width: 170px;
   height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px -85px no-repeat;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px -85px no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1126';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1127';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1135';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1136';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .Technology .hyphies {
   color: #8fd9f9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1128';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1137';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .Technology .discipline a:hover {
   width: 170px;
   height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px -34px no-repeat;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px -34px no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1130';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1131';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1139';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1140';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .Design .hyphies {
   color: #009856;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1132';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1141';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .Design .discipline a:hover {
   width: 170px;
   height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px -51px no-repeat;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px -51px no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1134';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1135';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1143';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1144';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .Science .hyphies {
   color: #e49541;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1136';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1145';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .Science .discipline a:hover {
   width: 170px;
   height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px -102px no-repeat;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px -102px no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1138';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1139';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1147';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1148';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .Architecture .hyphies {
   color: #97c64e;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1140';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1149';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .Architecture .discipline a:hover {
   width: 170px;
   height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px -68px no-repeat;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px -68px no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1142';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1143';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1151';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1152';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .Engineering .hyphies {
   color: #3f6e82;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1144';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1153';}}
 #sidebar-second div.region-sidebar-second #block-views-bfi-disciplines-box-block .views-row .Engineering .discipline a:hover {
   width: 170px;
   height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px -17px no-repeat;
-}
-
-
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1151';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1152';}}
-body.section-dymaxion-forum.page-art #sidebar-second #block-views-bfi-disciplines-box-block .Art .discipline a, body.taxo-art #sidebar-second #block-views-bfi-disciplines-box-block .Art .discipline a {
-  width: 170px;
-  height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px -85px no-repeat;
-}
-
-
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1154';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1155';}}
-body.section-dymaxion-forum.page-technology #sidebar-second #block-views-bfi-disciplines-box-block .Technology .discipline a, body.taxo-technology #sidebar-second #block-views-bfi-disciplines-box-block .Technology .discipline a {
-  width: 170px;
-  height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px -34px no-repeat;
-}
-
-
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1157';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1158';}}
-body.section-dymaxion-forum.page-design #sidebar-second #block-views-bfi-disciplines-box-block .Design .discipline a, body.taxo-design #sidebar-second #block-views-bfi-disciplines-box-block .Design .discipline a {
-  width: 170px;
-  height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px -51px no-repeat;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px -17px no-repeat;
 }
 
 
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1160';}}
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1161';}}
-body.section-dymaxion-forum.page-science #sidebar-second #block-views-bfi-disciplines-box-block .Science .discipline a, body.taxo-science #sidebar-second #block-views-bfi-disciplines-box-block .Science .discipline a {
+body.section-dymaxion-forum.page-art #sidebar-second #block-views-bfi-disciplines-box-block .Art .discipline a, body.taxo-art #sidebar-second #block-views-bfi-disciplines-box-block .Art .discipline a {
   width: 170px;
   height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px -102px no-repeat;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px -85px no-repeat;
 }
 
 
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1163';}}
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1164';}}
-body.section-dymaxion-forum.page-architecture #sidebar-second #block-views-bfi-disciplines-box-block .Architecture .discipline a, body.taxo-architecture #sidebar-second #block-views-bfi-disciplines-box-block .Architecture .discipline a {
+body.section-dymaxion-forum.page-technology #sidebar-second #block-views-bfi-disciplines-box-block .Technology .discipline a, body.taxo-technology #sidebar-second #block-views-bfi-disciplines-box-block .Technology .discipline a {
   width: 170px;
   height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px -68px no-repeat;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px -34px no-repeat;
 }
 
 
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1166';}}
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1167';}}
-body.section-dymaxion-forum.page-engineering #sidebar-second #block-views-bfi-disciplines-box-block .Engineering .discipline a, body.taxo-engineering #sidebar-second #block-views-bfi-disciplines-box-block .Engineering .discipline a {
+body.section-dymaxion-forum.page-design #sidebar-second #block-views-bfi-disciplines-box-block .Design .discipline a, body.taxo-design #sidebar-second #block-views-bfi-disciplines-box-block .Design .discipline a {
   width: 170px;
   height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px -17px no-repeat;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px -51px no-repeat;
 }
 
 
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1169';}}
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1170';}}
-body.node-type-article #sidebar-second .block-menu-block li.active-trail > a {
+body.section-dymaxion-forum.page-science #sidebar-second #block-views-bfi-disciplines-box-block .Science .discipline a, body.taxo-science #sidebar-second #block-views-bfi-disciplines-box-block .Science .discipline a {
   width: 170px;
   height: 15px;
-  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=930") 0px 0px no-repeat;
-  background-repeat: no-repeat;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px -102px no-repeat;
+}
+
+
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1172';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1173';}}
+body.section-dymaxion-forum.page-architecture #sidebar-second #block-views-bfi-disciplines-box-block .Architecture .discipline a, body.taxo-architecture #sidebar-second #block-views-bfi-disciplines-box-block .Architecture .discipline a {
+  width: 170px;
+  height: 15px;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px -68px no-repeat;
 }
 
 
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1175';}}
 @media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1176';}}
+body.section-dymaxion-forum.page-engineering #sidebar-second #block-views-bfi-disciplines-box-block .Engineering .discipline a, body.taxo-engineering #sidebar-second #block-views-bfi-disciplines-box-block .Engineering .discipline a {
+  width: 170px;
+  height: 15px;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px -17px no-repeat;
+}
+
+
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1179';}}
+body.node-type-article #sidebar-second .block-menu-block li.active-trail > a {
+  width: 170px;
+  height: 15px;
+  background: url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=62") 0px 0px no-repeat;
+  background-repeat: no-repeat;
+}
+
+
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1184';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1185';}}
 .one-sidebar.sidebar-second #main {
   margin-left: 0;
   margin-right: 0;
@@ -1398,46 +1406,46 @@ body.node-type-article #sidebar-second .block-menu-block li.active-trail > a {
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1191';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1192';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1200';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1201';}}
 body.node-type-page #sidebar-second, body.node-type-blog-post #sidebar-second, body.node-type-article #sidebar-second, body.node-type-product #sidebar-second, body.node-type-person #sidebar-second, body.node-type-literature-source #sidebar-second, body.node-type-webform #sidebar-second, body.node-type-idea #sidebar-second, body.page-search #sidebar-second {
   margin-top: 270px;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1197';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1198';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1206';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1207';}}
 body.node-type-newsletter #sidebar-second {
   margin-top: 340px;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1203';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1204';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1212';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1213';}}
 body.page-search #sidebar-second .region-sidebar-second {
   border: 10px solid #f0f0f0;
   padding: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1207';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1208';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1216';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1217';}}
 body.page-search #sidebar-second .region-sidebar-second .block-facetapi .block-title {
   color: #777777;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1211';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1220';}}
 body.page-search #sidebar-second .region-sidebar-second .block-facetapi ul {
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1213';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1222';}}
 body.page-search #sidebar-second .region-sidebar-second .block-facetapi ul li {
   list-style-image: none;
   list-style-type: none;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1220';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1229';}}
 body.page-search #sidebar-second .region-sidebar-second .block-facetapi {
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1223';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1232';}}
 body.page-search #sidebar-second .region-sidebar-second .block-last {
   border: 0;
   margin-bottom: 0;
@@ -1447,35 +1455,35 @@ body.page-search #sidebar-second .region-sidebar-second .block-last {
 /*
  * -----  Footer  -----
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1232';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1241';}}
 footer {
   overflow: hidden;
   background-color: #f0f0f0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1234';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1243';}}
 footer #footer-inner {
   padding-bottom: 40px;
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1239';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1248';}}
 footer .region {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1240';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1249';}}
 footer .region-footer-left, footer .region-footer-right {
   font-size: 12px;
   line-height: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1243';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1252';}}
 footer .region-footer-left .block, footer .region-footer-right .block {
   width: 100px;
   margin: 0 10px;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1247';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1256';}}
 footer .region-footer-left .block .block-title, footer .region-footer-right .block .block-title {
   text-transform: uppercase;
   font-family: interstatebold, pfdintextpro_bold, Interstate, DIN, Gotham;
@@ -1483,42 +1491,42 @@ footer .region-footer-left .block .block-title, footer .region-footer-right .blo
   line-height: 18px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1253';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1262';}}
 footer .region-footer-left {
   float: left;
   margin-top: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1256';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1257';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1265';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1266';}}
 footer .region-footer-left .block-menu .block-title {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1258';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1259';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1267';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1268';}}
 footer .region-footer-left .block-menu ul.menu li {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1261';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1270';}}
 footer .region-footer-left .block-menu ul.menu li a {
   color: #777777;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1263';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1272';}}
 footer .region-footer-left .block-menu ul.menu li.first {
   text-transform: uppercase;
   font-family: interstatebold, pfdintextpro_bold, Interstate, DIN, Gotham;
   font-size: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1265';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1274';}}
 footer .region-footer-left .block-menu ul.menu li.first a {
   color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1270';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1279';}}
 footer .region-footer-right {
   float: right;
   margin-top: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1273';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1282';}}
 footer .region-footer-right #block-block-7 {
   margin: 6px 0 0;
   width: 130px;
@@ -1530,36 +1538,36 @@ footer .region-footer-right #block-block-7 {
   line-height: 14px;
   color: #777777;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1281';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1290';}}
 footer .region-footer-right #block-block-7 a {
   color: #777777;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1282';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1291';}}
 footer .region-footer-right #block-block-7 .lower {
   text-transform: lowercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1283';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1292';}}
 footer .region-footer-right #block-block-7 p {
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1285';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1294';}}
 footer .region-footer-right #block-views-bfc-site-logo-footer-social {
   clear: both;
   float: right;
   width: 130px;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1290';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1299';}}
 footer .region-footer-right #block-views-bfc-site-logo-footer-social .view-content {
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1291';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1300';}}
 footer .region-footer-right #block-views-bfc-site-logo-footer-social .views-row {
   float: left;
   margin-right: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1297';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1306';}}
 footer .region-footer-bottom {
   clear: both;
   width: 100%;
@@ -1568,13 +1576,13 @@ footer .region-footer-bottom {
   font-size: 12px;
   color: #777777;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1302';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1311';}}
 footer .region-footer-bottom p {
   margin: 0;
   padding-bottom: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1306';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1307';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1315';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1316';}}
 footer .region-footer-bottom #block-views-bfi-footer-views-sponsors .views-row {
   display: inline-block;
   margin-right: 20px;
@@ -1584,55 +1592,55 @@ footer .region-footer-bottom #block-views-bfi-footer-views-sponsors .views-row {
 /*
  * -----  Excludes  -----
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1321';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1322';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1330';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1331';}}
 div.view-bfi-trimtab-item-order div.tabledrag-changed-warning, div.view-bfi-trimtab-item-order div.tabledrag-toggle-weight-wrapper {
   display: none !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1326';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1327';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1335';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1336';}}
 div.view-bfi-trimtab-item-order div.field-newsletter-item-section ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1332';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1333';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1341';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1342';}}
 div.view-bfi-trimtab-item-order div.field-newsletter-item-section ul div.field-name-field-newsletter-item-section label {
   display: none;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1341';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1350';}}
 body.logged-in #block-block-8 {
   display: none;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1342';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1343';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1351';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1352';}}
 body.page-user-login .tabs {
   display: none;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1355';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1356';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1364';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1365';}}
 body.page-node-92 h2#page-title, body.page-node-93 h2#page-title, body.page-node-94 h2#page-title, body.page-node-95 h2#page-title, body.page-node-96 h2#page-title, body.page-node-6 h2#page-title, body.page-node-1 h2#page-title, body.page-search h2#page-title {
   display: none;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1361';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1363';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1370';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1372';}}
 body.section-dymaxion-forum #block-views-bfi-submenu-listing-block, body.section-dymaxion-forum #sidebar-second #block-menu-block-1 {
   display: none;
 }
 
 
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1368';}}
-@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1369';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1377';}}
+@media -sass-debug-info{filename{font-family:file\:\/\/sites\/all\/themes\/bfi\/styles\/bfi\.scss;}line{font-family:'1378';}}
 body.node-type-article .field-serial-article {
   display: none;
 }
