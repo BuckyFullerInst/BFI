@@ -1,0 +1,78 @@
+@mixin sprite-vert-arrow-black4($hide-text: false, $dimensions: true) {
+  @if $dimensions {
+    width:170px;
+    height:15px;
+  }
+  @if $hide-text {
+    @include hide-text;
+  }
+  background:url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=631") 0px -0px no-repeat;
+}
+@mixin sprite-vert-arrow-blue-dark1($hide-text: false, $dimensions: true) {
+  @if $dimensions {
+    width:170px;
+    height:15px;
+  }
+  @if $hide-text {
+    @include hide-text;
+  }
+  background:url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=631") 0px -17px no-repeat;
+}
+@mixin sprite-vert-arrow-blue-light1($hide-text: false, $dimensions: true) {
+  @if $dimensions {
+    width:170px;
+    height:15px;
+  }
+  @if $hide-text {
+    @include hide-text;
+  }
+  background:url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=631") 0px -34px no-repeat;
+}
+@mixin sprite-vert-arrow-green-dark1($hide-text: false, $dimensions: true) {
+  @if $dimensions {
+    width:170px;
+    height:15px;
+  }
+  @if $hide-text {
+    @include hide-text;
+  }
+  background:url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=631") 0px -51px no-repeat;
+}
+@mixin sprite-vert-arrow-green-light1($hide-text: false, $dimensions: true) {
+  @if $dimensions {
+    width:170px;
+    height:15px;
+  }
+  @if $hide-text {
+    @include hide-text;
+  }
+  background:url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=631") 0px -68px no-repeat;
+}
+@mixin sprite-vert-arrow-red-dark1($hide-text: false, $dimensions: true) {
+  @if $dimensions {
+    width:170px;
+    height:15px;
+  }
+  @if $hide-text {
+    @include hide-text;
+  }
+  background:url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=631") 0px -85px no-repeat;
+}
+@mixin sprite-vert-arrow-red-light1($hide-text: false, $dimensions: true) {
+  @if $dimensions {
+    width:170px;
+    height:15px;
+  }
+  @if $hide-text {
+    @include hide-text;
+  }
+  background:url("/sites/default/files/sasson/bfi-sprites/vert-sprite.png?v=631") 0px -102px no-repeat;
+}
+@mixin hide-text {
+          display: block;
+          border: 0;
+          font: 0/0 a;
+          text-shadow: none;
+          color: transparent;
+          background-color: transparent;
+        }
