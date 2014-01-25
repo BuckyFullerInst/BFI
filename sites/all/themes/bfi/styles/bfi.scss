@@ -1016,6 +1016,7 @@ body.page-node-241 {
 			margin-bottom: $margin;
 			.block-title {
 				@include sidebar-block-title;
+				line-height: $margin;
 			}
 		}
 		section.block {
@@ -1104,6 +1105,35 @@ body.page-node-241 {
 
 		.view-bfi-sidebar-views {
 			.views-row { margin-bottom: $margin; }
+		}
+
+		#block-views-bfi-sidebar-views-popular-2 {
+			.views-row {
+				overflow: hidden;
+				width: 100%;
+				background-color: $gray-back;
+				height: 60px;
+				.field-content {
+					overflow: hidden;
+					width: 100%;
+				}
+				.field-image {
+					overflow: hidden;
+					float: left;
+				}
+				.text {
+					width: 140px;
+					height: 60px;
+					float: right;
+					.title, .title a  {
+						vertical-align: middle;
+						color: black;
+					}
+					margin: $margin/2;
+					overflow: hidden;
+				}
+				margin-bottom: $margin;
+			}
 		}
 
 		#block-views-bfi-disciplines-box-block	{
