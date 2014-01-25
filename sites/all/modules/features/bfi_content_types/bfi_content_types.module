@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the BFI Content Types feature.
- */
-
-include_once 'bfi_content_types.features.inc';

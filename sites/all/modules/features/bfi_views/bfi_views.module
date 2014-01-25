@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the BFI Views feature.
- */
-
-include_once 'bfi_views.features.inc';

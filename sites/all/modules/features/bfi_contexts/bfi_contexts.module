@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the BFI Contexts feature.
- */
-
-include_once 'bfi_contexts.features.inc';
