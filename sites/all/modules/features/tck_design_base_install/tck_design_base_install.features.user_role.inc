@@ -13,13 +13,13 @@ function tck_design_base_install_user_default_roles() {
   // Exported role: admin.
   $roles['admin'] = array(
     'name' => 'admin',
-    'weight' => 9,
+    'weight' => 10,
   );
 
   // Exported role: superadmin.
   $roles['superadmin'] = array(
     'name' => 'superadmin',
-    'weight' => 10,
+    'weight' => 11,
   );
 
   return $roles;
