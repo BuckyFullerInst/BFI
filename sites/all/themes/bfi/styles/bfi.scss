@@ -313,6 +313,11 @@ form {
 	input[type="url"],
 	input[type="week"] {
 		@include din;
+		line-height: 25px;
+		//padding-top: 0;
+		//padding-bottom: 0;
+		border: 1px solid #E8E8E8;
+		background-color: $gray-back;
 	}
 	button,
 	input[type="reset"],
@@ -374,11 +379,6 @@ html {
 				padding: 8px 0 0 0;
 				.form-text {
 					width: 180px;
-					line-height: 25px;
-					padding-top: 0;
-					padding-bottom: 0;
-					border: 1px solid #E8E8E8;
-					background-color: $gray-back;
 				}
 				.form-submit {
 					margin: 0;
@@ -584,6 +584,10 @@ body.front #sidebar-second {
 		}
 	}
 	margin-bottom: $margin/2;
+}
+
+body.front .region-content {
+	margin-bottom: 0;
 }
 .region-content-social {
 	margin: $margin 0;
