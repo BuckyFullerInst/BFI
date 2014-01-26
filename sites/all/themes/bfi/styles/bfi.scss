@@ -1057,7 +1057,7 @@ body.page-node-241 {
 
 		// For outline box formatting at the top of sidebar
 		.block-menu-block,
-		#block-views-bfi-disciplines-box-block	{
+		.view-bfi-disciplines-box	{
 			border: 10px solid $gray-back;
 			padding: $margin/2;
 			padding-left: 0;
@@ -1140,7 +1140,7 @@ body.page-node-241 {
 			}
 		}
 
-		#block-views-bfi-disciplines-box-block	{
+		.view-bfi-disciplines-box {
 			.views-row {
 				margin-left: 5px;
 				.discipline {
@@ -1190,22 +1190,22 @@ body.page-node-241 {
 }
 
 body.section-dymaxion-forum.page-art, body.taxo-art {
-	#sidebar-second #block-views-bfi-disciplines-box-block .Art .discipline a { @include sprite-vert-arrow-red-dark1; }
+	#sidebar-second .view-bfi-disciplines-box .Art .discipline a { @include sprite-vert-arrow-red-dark1; }
 }
 body.section-dymaxion-forum.page-technology, body.taxo-technology {
-	#sidebar-second #block-views-bfi-disciplines-box-block .Technology .discipline a { @include sprite-vert-arrow-blue-light1; }
+	#sidebar-second .view-bfi-disciplines-box .Technology .discipline a { @include sprite-vert-arrow-blue-light1; }
 }
 body.section-dymaxion-forum.page-design, body.taxo-design  {
-	#sidebar-second #block-views-bfi-disciplines-box-block .Design .discipline a { @include sprite-vert-arrow-green-dark1; }
+	#sidebar-second .view-bfi-disciplines-box .Design .discipline a { @include sprite-vert-arrow-green-dark1; }
 }
 body.section-dymaxion-forum.page-science, body.taxo-science {
-	#sidebar-second #block-views-bfi-disciplines-box-block .Science .discipline a { @include sprite-vert-arrow-red-light1; }
+	#sidebar-second .view-bfi-disciplines-box .Science .discipline a { @include sprite-vert-arrow-red-light1; }
 }
 body.section-dymaxion-forum.page-architecture, body.taxo-architecture {
-	#sidebar-second #block-views-bfi-disciplines-box-block .Architecture .discipline a { @include sprite-vert-arrow-green-light1; }
+	#sidebar-second .view-bfi-disciplines-box .Architecture .discipline a { @include sprite-vert-arrow-green-light1; }
 }
 body.section-dymaxion-forum.page-engineering, body.taxo-engineering {
-	#sidebar-second #block-views-bfi-disciplines-box-block .Engineering .discipline a { @include sprite-vert-arrow-blue-dark1; }
+	#sidebar-second .view-bfi-disciplines-box .Engineering .discipline a { @include sprite-vert-arrow-blue-dark1; }
 }
 
 body.node-type-article #sidebar-second .block-menu-block li.active-trail > a {
@@ -1399,9 +1399,12 @@ body.page-search {
 	}
 }
 
+#block-menu-block-2, #block-views-bfi-disciplines-box-block-1 { display: none; }
+
 body.section-dymaxion-forum {
 	#block-views-bfi-submenu-listing-block,
-	#sidebar-second #block-menu-block-1 {
+	#sidebar-second #block-menu-block-1,
+	#sidebar-second #block-menu-block-2 {
 		display: none;
 	}
 }
