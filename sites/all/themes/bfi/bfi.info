@@ -23,7 +23,7 @@ styles[styles/bfi.scss][options][media] = all
 
 ; Theme Script Files ------------------------------------------------------
 
-scripts[] = scripts/jquery.sticky-kit.min.js
+; scripts[] = scripts/jquery.sticky-kit.min.js
 scripts[] = scripts/bfi.js
 
 
