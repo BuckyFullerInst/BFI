@@ -765,6 +765,7 @@ body.page-node-92 {
 
 .item-list {
 	width: 700px;
+	ul { list-style-type: disc; margin: $margin 0; }
 	ul.pager {
 		li {
 			margin: 0 0 0 10px;
