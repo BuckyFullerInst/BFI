@@ -332,6 +332,11 @@ form {
 	@include post-date;
 }
 
+body.node-type-idea .region-content-attribution {
+	font-size: 14px;
+	font-style: normal;
+}
+
 html {
 	background-color: $gray-back;
 }
@@ -1066,7 +1071,8 @@ body.page-node-241 {
 
 		// For outline box formatting at the top of sidebar
 		.block-menu-block,
-		.view-bfi-disciplines-box	{
+		.view-bfi-disciplines-box,
+		#block-views-bfi-idea-index-views-metadata	{
 			border: 10px solid $gray-back;
 			padding: $margin/2;
 			padding-left: 0;
@@ -1193,6 +1199,14 @@ body.page-node-241 {
 					.hyphies { color: $color-blue-dark; }
 					.discipline a:hover { @include sprite-vert-arrow-blue-dark1; }
 				}
+			}
+		}
+
+		#block-views-bfi-idea-index-views-metadata {
+			padding-left: 15px;
+			span.views-label {
+				@include dinb;
+				text-transform: uppercase;
 			}
 		}
 	}
