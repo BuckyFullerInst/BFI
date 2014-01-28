@@ -638,12 +638,20 @@ body.front .region-content {
 .view-bfi-banner-images.view-display-id-section_trimtab {
 	div.views-row {
 		position: relative;
-		h1.section-name {
+		div.section {
 			position: absolute;
-			line-height: 60px;
 			background-color: white;
 			z-index: 15;
 			padding: 0 $margin 0 0;
+			h1.section-name {
+				line-height: 60px;
+			}
+			.vol-meta {
+				margin-top: -12px;
+				margin-bottom: 15px;
+				@include post-date;
+				//font-size: 14px;
+			}
 		}
 	}
 }
@@ -909,6 +917,7 @@ body.node-type-newsletter {
 			tr {
 				border-bottom: $margin solid white;
 				td {
+					width: 300px;
 					.image {
 						width: 300px;
 						height: 190px;
