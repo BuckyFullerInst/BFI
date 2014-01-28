@@ -143,7 +143,7 @@ function tck_design_base_install_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'file_private_path';
-  $strongarm->value = '../private';
+  $strongarm->value = 'private';
   $export['file_private_path'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -248,14 +248,14 @@ function tck_design_base_install_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_taxonomy_term_admin_tags_pattern';
-  $strongarm->value = 'admin/admin-tags/[term:vocabulary]/[term:name]';
+  $strongarm->value = '';
   $export['pathauto_taxonomy_term_admin_tags_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_taxonomy_term_pattern';
-  $strongarm->value = '[term:vocabulary]/[term:name]';
+  $strongarm->value = 'admin/structure/taxonomy/[term:vocabulary]/terms/[term:name]';
   $export['pathauto_taxonomy_term_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -290,15 +290,16 @@ function tck_design_base_install_strongarm() {
     'toggle_node_user_picture' => 1,
     'toggle_comment_user_picture' => 1,
     'toggle_comment_user_verification' => 1,
-    'toggle_favicon' => 0,
+    'toggle_favicon' => 1,
     'toggle_main_menu' => 1,
     'toggle_secondary_menu' => 1,
     'default_logo' => 0,
     'logo_path' => '',
     'logo_upload' => '',
     'default_favicon' => 0,
-    'favicon_path' => '',
-    'favicon_upload' => '',
+    'favicon_path' => 'public://favicon_1.ico',
+    'nice_menus_custom_css' => '',
+    'favicon_mimetype' => 'image/vnd.microsoft.icon',
   );
   $export['theme_settings'] = $strongarm;
 

@@ -313,6 +313,11 @@ form {
 	input[type="url"],
 	input[type="week"] {
 		@include din;
+		line-height: 25px;
+		//padding-top: 0;
+		//padding-bottom: 0;
+		border: 1px solid #E8E8E8;
+		background-color: $gray-back;
 	}
 	button,
 	input[type="reset"],
@@ -325,6 +330,11 @@ form {
 
 .region-content-attribution, .attribution, .post-date {
 	@include post-date;
+}
+
+body.node-type-idea .region-content-attribution {
+	font-size: 14px;
+	font-style: normal;
 }
 
 html {
@@ -374,11 +384,6 @@ html {
 				padding: 8px 0 0 0;
 				.form-text {
 					width: 180px;
-					line-height: 25px;
-					padding-top: 0;
-					padding-bottom: 0;
-					border: 1px solid #E8E8E8;
-					background-color: $gray-back;
 				}
 				.form-submit {
 					margin: 0;
@@ -446,7 +451,9 @@ html {
 
 body.front #header section.block-nice-menus li.home > a,
 body.section-challenge #header section.block-nice-menus li.challenge > a,
-body.section-dymaxion-forum #header section.block-nice-menus li.dymaxion-forum > a {
+body.section-dymaxion-forum #header section.block-nice-menus li.dymaxion-forum > a,
+body.section-trimtab #header section.block-nice-menus li.trimtab > a, 
+body.node-type-newsletter #header section.block-nice-menus li.trimtab > a {
 	color: $link-active-menu;
 }
 
@@ -583,6 +590,10 @@ body.front #sidebar-second {
 	}
 	margin-bottom: $margin/2;
 }
+
+body.front .region-content {
+	margin-bottom: 0;
+}
 .region-content-social {
 	margin: $margin 0;
 	float: right;
@@ -632,12 +643,20 @@ body.front #sidebar-second {
 .view-bfi-banner-images.view-display-id-section_trimtab {
 	div.views-row {
 		position: relative;
-		h1.section-name {
+		div.section {
 			position: absolute;
-			line-height: 60px;
 			background-color: white;
 			z-index: 15;
 			padding: 0 $margin 0 0;
+			h1.section-name {
+				line-height: 60px;
+			}
+			.vol-meta {
+				margin-top: -12px;
+				margin-bottom: 15px;
+				@include post-date;
+				//font-size: 14px;
+			}
 		}
 	}
 }
@@ -795,6 +814,7 @@ body.section-about-fuller .region-content-bottom {
 	}
 }
 
+// Patents
 #block-views-bfi-lit-rbf-books-patents-20s,
 #block-views-bfi-lit-rbf-books-patents-30s,
 #block-views-bfi-lit-rbf-books-patents-40s,
@@ -815,13 +835,13 @@ body.section-about-fuller .region-content-bottom {
 			}
 		}
 	}
-	.views-row-3 {
-		.issued {
-			display: none;
-		}
-	}
 }
 
+// Patents that weren't awarded
+#block-views-bfi-lit-rbf-books-patents-20s .views-row-3,
+#block-views-bfi-lit-rbf-books-patents-60s .views-row-5 {
+	.issued { display: none; }
+}
 
 // Image thumbs at bottom of pages
 .view-id-bfi_content_image_thumbs {
@@ -882,7 +902,7 @@ body.page-node-93 {
 
 // Trimtab formatting (See above for base)
 body.node-type-newsletter {
-	.region-content-social, #page-title { display: none; }
+	#page-title, #sidebar-second { display: none; }
 
 	.region-content-bottom { width: 940px; }
 
@@ -902,6 +922,7 @@ body.node-type-newsletter {
 			tr {
 				border-bottom: $margin solid white;
 				td {
+					width: 300px;
 					.image {
 						width: 300px;
 						height: 190px;
@@ -909,6 +930,7 @@ body.node-type-newsletter {
 					.field-title-field {
 						@include content-title-small;
 					}
+					.field-body { margin-top: 1em; }
 				}
 			}
 			tr.row-last {
@@ -1012,6 +1034,7 @@ body.page-node-241 {
 			margin-bottom: $margin;
 			.block-title {
 				@include sidebar-block-title;
+				line-height: $margin;
 			}
 		}
 		section.block {
@@ -1048,7 +1071,8 @@ body.page-node-241 {
 
 		// For outline box formatting at the top of sidebar
 		.block-menu-block,
-		#block-views-bfi-disciplines-box-block	{
+		.view-bfi-disciplines-box,
+		#block-views-bfi-idea-index-views-metadata	{
 			border: 10px solid $gray-back;
 			padding: $margin/2;
 			padding-left: 0;
@@ -1068,8 +1092,14 @@ body.page-node-241 {
 						padding-left: $margin * .75;
 						color: black;
 					}
+
+					// Account for space under other view's rows in sidebar
+					.view-display-id-tt_menu .views-row { margin-bottom: 0; }
 				}
-				li.active > a, li > a:hover { background: url("../images/arrow-black4.png") no-repeat; }
+
+				li.active > a, li > a:hover,
+				.view-display-id-tt_menu .views-row a:hover { background: url("../images/arrow-black4.png") no-repeat; }
+				
 				li  ul {
 					li {
 						a {
@@ -1096,7 +1126,36 @@ body.page-node-241 {
 			.views-row { margin-bottom: $margin; }
 		}
 
-		#block-views-bfi-disciplines-box-block	{
+		#block-views-bfi-sidebar-views-popular-2 {
+			.views-row {
+				overflow: hidden;
+				width: 100%;
+				background-color: $gray-back;
+				height: 60px;
+				.field-content {
+					overflow: hidden;
+					width: 100%;
+				}
+				.field-image {
+					overflow: hidden;
+					float: left;
+				}
+				.text {
+					width: 140px;
+					height: 60px;
+					float: right;
+					.title, .title a  {
+						vertical-align: middle;
+						color: black;
+					}
+					margin: $margin/2;
+					overflow: hidden;
+				}
+				margin-bottom: $margin;
+			}
+		}
+
+		.view-bfi-disciplines-box {
 			.views-row {
 				margin-left: 5px;
 				.discipline {
@@ -1142,26 +1201,34 @@ body.page-node-241 {
 				}
 			}
 		}
+
+		#block-views-bfi-idea-index-views-metadata {
+			padding-left: 15px;
+			span.views-label {
+				@include dinb;
+				text-transform: uppercase;
+			}
+		}
 	}
 }
 
 body.section-dymaxion-forum.page-art, body.taxo-art {
-	#sidebar-second #block-views-bfi-disciplines-box-block .Art .discipline a { @include sprite-vert-arrow-red-dark1; }
+	#sidebar-second .view-bfi-disciplines-box .Art .discipline a { @include sprite-vert-arrow-red-dark1; }
 }
 body.section-dymaxion-forum.page-technology, body.taxo-technology {
-	#sidebar-second #block-views-bfi-disciplines-box-block .Technology .discipline a { @include sprite-vert-arrow-blue-light1; }
+	#sidebar-second .view-bfi-disciplines-box .Technology .discipline a { @include sprite-vert-arrow-blue-light1; }
 }
 body.section-dymaxion-forum.page-design, body.taxo-design  {
-	#sidebar-second #block-views-bfi-disciplines-box-block .Design .discipline a { @include sprite-vert-arrow-green-dark1; }
+	#sidebar-second .view-bfi-disciplines-box .Design .discipline a { @include sprite-vert-arrow-green-dark1; }
 }
 body.section-dymaxion-forum.page-science, body.taxo-science {
-	#sidebar-second #block-views-bfi-disciplines-box-block .Science .discipline a { @include sprite-vert-arrow-red-light1; }
+	#sidebar-second .view-bfi-disciplines-box .Science .discipline a { @include sprite-vert-arrow-red-light1; }
 }
 body.section-dymaxion-forum.page-architecture, body.taxo-architecture {
-	#sidebar-second #block-views-bfi-disciplines-box-block .Architecture .discipline a { @include sprite-vert-arrow-green-light1; }
+	#sidebar-second .view-bfi-disciplines-box .Architecture .discipline a { @include sprite-vert-arrow-green-light1; }
 }
 body.section-dymaxion-forum.page-engineering, body.taxo-engineering {
-	#sidebar-second #block-views-bfi-disciplines-box-block .Engineering .discipline a { @include sprite-vert-arrow-blue-dark1; }
+	#sidebar-second .view-bfi-disciplines-box .Engineering .discipline a { @include sprite-vert-arrow-blue-dark1; }
 }
 
 body.node-type-article #sidebar-second .block-menu-block li.active-trail > a {
@@ -1355,9 +1422,12 @@ body.page-search {
 	}
 }
 
+#block-menu-block-2, #block-views-bfi-disciplines-box-block-1 { display: none; }
+
 body.section-dymaxion-forum {
 	#block-views-bfi-submenu-listing-block,
-	#sidebar-second #block-menu-block-1 {
+	#sidebar-second #block-menu-block-1,
+	#sidebar-second #block-menu-block-2 {
 		display: none;
 	}
 }
@@ -1367,3 +1437,5 @@ body.node-type-article {
 		display: none;
 	}
 }
+
+body.section-challenge.page-apply #block-views-bfi-submenu-listing-block { display: none; }
