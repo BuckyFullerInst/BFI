@@ -1400,6 +1400,19 @@ footer {
 	}
 }
 
+.field-application-questions .field-project-review-score-wrap {
+	width: 100%;
+	overflow: hidden;
+	postion: relative;
+	.field-label {
+		clear: both;
+		width: 150px;
+		float: left;
+		text-align: right;
+		padding-right: $margin/2;
+	}
+	.inline { float: left; }
+}
 
 
 /* -----  Excludes  ----- */
