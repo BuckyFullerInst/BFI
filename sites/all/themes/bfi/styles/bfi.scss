@@ -1377,9 +1377,30 @@ footer {
 
 	}
 
-
-
 }
+
+/* -----  CHALLENGE STYLING  ----- */
+
+
+#edit-field-application-questions .field-name-field-project-review-score-wrap {
+	.field-widget-stars {
+		clear: both;
+		.form-type-fivestar {
+			width: 100%;
+			overflow: hidden;
+			postion: relative;
+			label {
+				float: left;
+				width: 150px;
+				text-align: right;
+				padding-right: $margin/2; 
+			}
+			.form-type-select { float: left; }
+		}
+	}
+}
+
+
 
 /* -----  Excludes  ----- */
 
