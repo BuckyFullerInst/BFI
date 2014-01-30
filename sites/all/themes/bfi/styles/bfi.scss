@@ -784,12 +784,14 @@ body.section-about-fuller .region-content-bottom {
 		margin-bottom: $margin/2;
 		text-transform: lowercase;
 	}
-	#block-views-bfi-lit-rbf-books-intros,
-	#block-views-bfi-lit-rbf-books-forewords,
-	#block-views-bfi-lit-rbf-books-contributions {
-		.block-title {
-			text-transform: uppercase;
-		}
+}
+
+#block-views-bfi-lit-rbf-books-intros,
+#block-views-bfi-lit-rbf-books-forewords,
+#block-views-bfi-lit-rbf-books-contributions,
+#block-views-bfi-lit-rbf-books-synergetics {
+	.block-title {
+		text-transform: uppercase;
 	}
 }
 
