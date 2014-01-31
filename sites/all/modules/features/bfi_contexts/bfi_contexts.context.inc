@@ -361,6 +361,7 @@ function bfi_contexts_context_default_contexts() {
       'values' => array(
         'article' => 'article',
         'blog_post' => 'blog_post',
+        'newsletter' => 'newsletter',
         'page' => 'page',
       ),
       'options' => array(
@@ -371,47 +372,23 @@ function bfi_contexts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-bfi_banner_images-banner' => array(
+        'views-bfi_attribution-block' => array(
           'module' => 'views',
-          'delta' => 'bfi_banner_images-banner',
-          'region' => 'content_top',
+          'delta' => 'bfi_attribution-block',
+          'region' => 'content_attribution',
           'weight' => '-10',
-        ),
-        'views-bfi_banner_images-parents' => array(
-          'module' => 'views',
-          'delta' => 'bfi_banner_images-parents',
-          'region' => 'content_top',
-          'weight' => '-9',
-        ),
-        'views-bfi_banner_images-grandparents' => array(
-          'module' => 'views',
-          'delta' => 'bfi_banner_images-grandparents',
-          'region' => 'content_top',
-          'weight' => '-8',
-        ),
-        'views-47d40cd0e7c3396c6481198c3f1b15a5' => array(
-          'module' => 'views',
-          'delta' => '47d40cd0e7c3396c6481198c3f1b15a5',
-          'region' => 'content_top',
-          'weight' => '-7',
         ),
         'views-bfi_banner_images-attribution' => array(
           'module' => 'views',
           'delta' => 'bfi_banner_images-attribution',
           'region' => 'content_attribution',
-          'weight' => '-10',
-        ),
-        'easy_social-easy_social_block_1' => array(
-          'module' => 'easy_social',
-          'delta' => 'easy_social_block_1',
-          'region' => 'content_social',
           'weight' => '-9',
         ),
         'views-bfi_submenu_listing-block' => array(
           'module' => 'views',
           'delta' => 'bfi_submenu_listing-block',
           'region' => 'content_bottom',
-          'weight' => '-10',
+          'weight' => '66',
         ),
       ),
     ),
@@ -426,6 +403,11 @@ function bfi_contexts_context_default_contexts() {
   $context->description = '';
   $context->tag = 'dymax_forum';
   $context->conditions = array(
+    'admin_theme' => array(
+      'values' => array(
+        'non_admin' => 'non_admin',
+      ),
+    ),
     'path' => array(
       'values' => array(
         'dymaxion-forum' => 'dymaxion-forum',
@@ -441,287 +423,21 @@ function bfi_contexts_context_default_contexts() {
           'region' => 'content_bottom',
           'weight' => '-10',
         ),
-        'views-bfi_sidebar_views-popular' => array(
+        'views-bfi_sidebar_views-popular_df' => array(
           'module' => 'views',
-          'delta' => 'bfi_sidebar_views-popular',
+          'delta' => 'bfi_sidebar_views-popular_df',
           'region' => 'sidebar_second',
           'weight' => '-10',
         ),
       ),
     ),
   );
-  $context->condition_mode = 0;
+  $context->condition_mode = 1;
 
   // Translatables
   // Included for use with string extractors like potx.
   t('dymax_forum');
   $export['bfi_dymax_forum'] = $context;
-
-  $context = new stdClass();
-  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
-  $context->api_version = 3;
-  $context->name = 'bfi_dymax_forum_architecture';
-  $context->description = '';
-  $context->tag = 'dymax_forum';
-  $context->conditions = array(
-    'path' => array(
-      'values' => array(
-        'dymaxion-forum/architecture' => 'dymaxion-forum/architecture',
-      ),
-    ),
-  );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'views-bfi_submenu_listing-df_arch' => array(
-          'module' => 'views',
-          'delta' => 'bfi_submenu_listing-df_arch',
-          'region' => 'content_bottom',
-          'weight' => '-6',
-        ),
-        'views-bfi_sidebar_views-popular_arch' => array(
-          'module' => 'views',
-          'delta' => 'bfi_sidebar_views-popular_arch',
-          'region' => 'sidebar_second',
-          'weight' => '-10',
-        ),
-      ),
-    ),
-  );
-  $context->condition_mode = 0;
-
-  // Translatables
-  // Included for use with string extractors like potx.
-  t('dymax_forum');
-  $export['bfi_dymax_forum_architecture'] = $context;
-
-  $context = new stdClass();
-  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
-  $context->api_version = 3;
-  $context->name = 'bfi_dymax_forum_art';
-  $context->description = '';
-  $context->tag = 'dymax_forum';
-  $context->conditions = array(
-    'path' => array(
-      'values' => array(
-        'dymaxion-forum/art' => 'dymaxion-forum/art',
-      ),
-    ),
-  );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'views-bfi_submenu_listing-df_art' => array(
-          'module' => 'views',
-          'delta' => 'bfi_submenu_listing-df_art',
-          'region' => 'content_bottom',
-          'weight' => '-10',
-        ),
-        'views-bfi_sidebar_views-popular_art' => array(
-          'module' => 'views',
-          'delta' => 'bfi_sidebar_views-popular_art',
-          'region' => 'sidebar_second',
-          'weight' => '-10',
-        ),
-      ),
-    ),
-  );
-  $context->condition_mode = 0;
-
-  // Translatables
-  // Included for use with string extractors like potx.
-  t('dymax_forum');
-  $export['bfi_dymax_forum_art'] = $context;
-
-  $context = new stdClass();
-  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
-  $context->api_version = 3;
-  $context->name = 'bfi_dymax_forum_design';
-  $context->description = '';
-  $context->tag = 'dymax_forum';
-  $context->conditions = array(
-    'path' => array(
-      'values' => array(
-        'dymaxion-forum/design' => 'dymaxion-forum/design',
-      ),
-    ),
-  );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'views-bfi_submenu_listing-df_design' => array(
-          'module' => 'views',
-          'delta' => 'bfi_submenu_listing-df_design',
-          'region' => 'content_bottom',
-          'weight' => '-8',
-        ),
-        'views-198aa8e650f291d2f163c273e17ff7d5' => array(
-          'module' => 'views',
-          'delta' => '198aa8e650f291d2f163c273e17ff7d5',
-          'region' => 'sidebar_second',
-          'weight' => '-10',
-        ),
-      ),
-    ),
-  );
-  $context->condition_mode = 0;
-
-  // Translatables
-  // Included for use with string extractors like potx.
-  t('dymax_forum');
-  $export['bfi_dymax_forum_design'] = $context;
-
-  $context = new stdClass();
-  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
-  $context->api_version = 3;
-  $context->name = 'bfi_dymax_forum_engineering';
-  $context->description = '';
-  $context->tag = 'dymax_forum';
-  $context->conditions = array(
-    'path' => array(
-      'values' => array(
-        'dymaxion-forum/engineering' => 'dymaxion-forum/engineering',
-      ),
-    ),
-  );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'views-bfi_submenu_listing-df_eng' => array(
-          'module' => 'views',
-          'delta' => 'bfi_submenu_listing-df_eng',
-          'region' => 'content_bottom',
-          'weight' => '-5',
-        ),
-        'views-bfi_sidebar_views-popular_eng' => array(
-          'module' => 'views',
-          'delta' => 'bfi_sidebar_views-popular_eng',
-          'region' => 'sidebar_second',
-          'weight' => '-10',
-        ),
-      ),
-    ),
-  );
-  $context->condition_mode = 0;
-
-  // Translatables
-  // Included for use with string extractors like potx.
-  t('dymax_forum');
-  $export['bfi_dymax_forum_engineering'] = $context;
-
-  $context = new stdClass();
-  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
-  $context->api_version = 3;
-  $context->name = 'bfi_dymax_forum_science';
-  $context->description = '';
-  $context->tag = 'dymax_forum';
-  $context->conditions = array(
-    'path' => array(
-      'values' => array(
-        'dymaxion-forum/science' => 'dymaxion-forum/science',
-      ),
-    ),
-  );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'views-bfi_submenu_listing-df_science' => array(
-          'module' => 'views',
-          'delta' => 'bfi_submenu_listing-df_science',
-          'region' => 'content_bottom',
-          'weight' => '-7',
-        ),
-        'views-bc51f2e94a753d35eb942cf290ac9c1c' => array(
-          'module' => 'views',
-          'delta' => 'bc51f2e94a753d35eb942cf290ac9c1c',
-          'region' => 'sidebar_second',
-          'weight' => '-10',
-        ),
-      ),
-    ),
-  );
-  $context->condition_mode = 0;
-
-  // Translatables
-  // Included for use with string extractors like potx.
-  t('dymax_forum');
-  $export['bfi_dymax_forum_science'] = $context;
-
-  $context = new stdClass();
-  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
-  $context->api_version = 3;
-  $context->name = 'bfi_dymax_forum_section';
-  $context->description = '';
-  $context->tag = 'dymax_forum';
-  $context->conditions = array(
-    'path' => array(
-      'values' => array(
-        'dymaxion-forum*' => 'dymaxion-forum*',
-      ),
-    ),
-  );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'views-bfi_disciplines_box-block' => array(
-          'module' => 'views',
-          'delta' => 'bfi_disciplines_box-block',
-          'region' => 'sidebar_second',
-          'weight' => '-52',
-        ),
-        'views-bfi_sidebar_views-postings' => array(
-          'module' => 'views',
-          'delta' => 'bfi_sidebar_views-postings',
-          'region' => 'sidebar_second',
-          'weight' => '-51',
-        ),
-      ),
-    ),
-  );
-  $context->condition_mode = 0;
-
-  // Translatables
-  // Included for use with string extractors like potx.
-  t('dymax_forum');
-  $export['bfi_dymax_forum_section'] = $context;
-
-  $context = new stdClass();
-  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
-  $context->api_version = 3;
-  $context->name = 'bfi_dymax_forum_tech';
-  $context->description = '';
-  $context->tag = 'dymax_forum';
-  $context->conditions = array(
-    'path' => array(
-      'values' => array(
-        'dymaxion-forum/technology' => 'dymaxion-forum/technology',
-      ),
-    ),
-  );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'views-bfi_submenu_listing-df_tech' => array(
-          'module' => 'views',
-          'delta' => 'bfi_submenu_listing-df_tech',
-          'region' => 'content_bottom',
-          'weight' => '-9',
-        ),
-        'views-bfi_sidebar_views-popular_tech' => array(
-          'module' => 'views',
-          'delta' => 'bfi_sidebar_views-popular_tech',
-          'region' => 'sidebar_second',
-          'weight' => '-10',
-        ),
-      ),
-    ),
-  );
-  $context->condition_mode = 0;
-
-  // Translatables
-  // Included for use with string extractors like potx.
-  t('dymax_forum');
-  $export['bfi_dymax_forum_tech'] = $context;
 
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
@@ -785,37 +501,31 @@ function bfi_contexts_context_default_contexts() {
           'module' => 'block',
           'delta' => '5',
           'region' => 'sidebar_second',
-          'weight' => '-50',
+          'weight' => '-83',
         ),
         'views-bfi_sidebar_views-store' => array(
           'module' => 'views',
           'delta' => 'bfi_sidebar_views-store',
           'region' => 'sidebar_second',
-          'weight' => '-45',
+          'weight' => '-82',
         ),
         'views-bfi_sidebar_views-block_1' => array(
           'module' => 'views',
           'delta' => 'bfi_sidebar_views-block_1',
           'region' => 'sidebar_second',
-          'weight' => '-40',
+          'weight' => '-81',
         ),
         'block-6' => array(
           'module' => 'block',
           'delta' => '6',
           'region' => 'sidebar_second',
-          'weight' => '-35',
+          'weight' => '-80',
         ),
-        'views-bfi_sidebar_views-postings' => array(
+        'views-bfi_sidebar_views-popular_2' => array(
           'module' => 'views',
-          'delta' => 'bfi_sidebar_views-postings',
+          'delta' => 'bfi_sidebar_views-popular_2',
           'region' => 'sidebar_second',
-          'weight' => '-30',
-        ),
-        'views-bfi_sidebar_views-updates' => array(
-          'module' => 'views',
-          'delta' => 'bfi_sidebar_views-updates',
-          'region' => 'sidebar_second',
-          'weight' => '-25',
+          'weight' => '-79',
         ),
       ),
     ),
@@ -841,7 +551,18 @@ function bfi_contexts_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array();
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'views-bfc_landing_page-block' => array(
+          'module' => 'views',
+          'delta' => 'bfc_landing_page-block',
+          'region' => 'content_bottom',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
   $context->condition_mode = 0;
 
   // Translatables
@@ -876,23 +597,41 @@ function bfi_contexts_context_default_contexts() {
           'region' => 'header',
           'weight' => '-10',
         ),
+        'block-8' => array(
+          'module' => 'block',
+          'delta' => '8',
+          'region' => 'header',
+          'weight' => '-9',
+        ),
+        'logintoboggan-logintoboggan_logged_in' => array(
+          'module' => 'logintoboggan',
+          'delta' => 'logintoboggan_logged_in',
+          'region' => 'header',
+          'weight' => '-8',
+        ),
         'views--exp-bfi_general_search-page' => array(
           'module' => 'views',
           'delta' => '-exp-bfi_general_search-page',
           'region' => 'header',
-          'weight' => '-9',
+          'weight' => '-7',
         ),
         'nice_menus-1' => array(
           'module' => 'nice_menus',
           'delta' => '1',
           'region' => 'header',
-          'weight' => '-8',
+          'weight' => '-6',
+        ),
+        'views-bfi_content_image_thumbs-block' => array(
+          'module' => 'views',
+          'delta' => 'bfi_content_image_thumbs-block',
+          'region' => 'content_bottom',
+          'weight' => '-10',
         ),
         'menu_block-1' => array(
           'module' => 'menu_block',
           'delta' => '1',
           'region' => 'sidebar_second',
-          'weight' => '-50',
+          'weight' => '-65',
         ),
         'menu-menu-footer-about-bfi' => array(
           'module' => 'menu',
@@ -936,6 +675,18 @@ function bfi_contexts_context_default_contexts() {
           'region' => 'footer_right',
           'weight' => '-60',
         ),
+        'views-bfc_site_logo-footer_social' => array(
+          'module' => 'views',
+          'delta' => 'bfc_site_logo-footer_social',
+          'region' => 'footer_right',
+          'weight' => '-10',
+        ),
+        'views-bfi_footer_views-sponsors' => array(
+          'module' => 'views',
+          'delta' => 'bfi_footer_views-sponsors',
+          'region' => 'footer_bottom',
+          'weight' => '-10',
+        ),
       ),
     ),
   );
@@ -968,6 +719,30 @@ function bfi_contexts_context_default_contexts() {
           'delta' => 'bfi_banner_images-search',
           'region' => 'content_top',
           'weight' => '-10',
+        ),
+        'facetapi-10Hl8auKZeWrH1ublFXu0654TABceuPZ' => array(
+          'module' => 'facetapi',
+          'delta' => '10Hl8auKZeWrH1ublFXu0654TABceuPZ',
+          'region' => 'sidebar_second',
+          'weight' => '-64',
+        ),
+        'facetapi-9Hzyc6IjVP3DID7o1IyJCcTRq9N0PRF0' => array(
+          'module' => 'facetapi',
+          'delta' => '9Hzyc6IjVP3DID7o1IyJCcTRq9N0PRF0',
+          'region' => 'sidebar_second',
+          'weight' => '-63',
+        ),
+        'facetapi-GXSffu3DMd0t2i7f6aRYUlalKl1G6dWL' => array(
+          'module' => 'facetapi',
+          'delta' => 'GXSffu3DMd0t2i7f6aRYUlalKl1G6dWL',
+          'region' => 'sidebar_second',
+          'weight' => '-62',
+        ),
+        'facetapi-DqZH4dk34xji1vZuZl6PRJWdN2RAtLiX' => array(
+          'module' => 'facetapi',
+          'delta' => 'DqZH4dk34xji1vZuZl6PRJWdN2RAtLiX',
+          'region' => 'sidebar_second',
+          'weight' => '-61',
         ),
       ),
     ),
@@ -1097,47 +872,59 @@ function bfi_contexts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-8f81a8316fbe675060caeac6459fd097' => array(
+        'views-17df2e3d3ee2445b994727a727a501f3' => array(
           'module' => 'views',
-          'delta' => '8f81a8316fbe675060caeac6459fd097',
-          'region' => 'content',
+          'delta' => '17df2e3d3ee2445b994727a727a501f3',
+          'region' => 'content_top',
+          'weight' => '-10',
+        ),
+        'views-43bf4275ebf9289d7821508ee5126c60' => array(
+          'module' => 'views',
+          'delta' => '43bf4275ebf9289d7821508ee5126c60',
+          'region' => 'content_top',
+          'weight' => '-9',
+        ),
+        'views-bfi_trimtab_sections-updates' => array(
+          'module' => 'views',
+          'delta' => 'bfi_trimtab_sections-updates',
+          'region' => 'content_bottom',
           'weight' => '-10',
         ),
         'views-bfi_trimtab_sections-trends' => array(
           'module' => 'views',
           'delta' => 'bfi_trimtab_sections-trends',
-          'region' => 'content',
+          'region' => 'content_bottom',
           'weight' => '-9',
         ),
         'views-bfi_trimtab_sections-resources' => array(
           'module' => 'views',
           'delta' => 'bfi_trimtab_sections-resources',
-          'region' => 'content',
+          'region' => 'content_bottom',
           'weight' => '-8',
         ),
         'views-bfi_trimtab_sections-events' => array(
           'module' => 'views',
           'delta' => 'bfi_trimtab_sections-events',
-          'region' => 'content',
+          'region' => 'content_bottom',
           'weight' => '-7',
         ),
-        'views-bfi_trimtab_item_order-block_1' => array(
+        'views-bfi_trimtab_sections-project' => array(
           'module' => 'views',
-          'delta' => 'bfi_trimtab_item_order-block_1',
-          'region' => 'sidebar_second',
-          'weight' => '-10',
+          'delta' => 'bfi_trimtab_sections-project',
+          'region' => 'content_bottom',
+          'weight' => '-6',
         ),
-        'views-1030ffb2b32d54d5f5df812c53dedbd7' => array(
+        'views-bfi_trimtab_sections-store' => array(
           'module' => 'views',
-          'delta' => '1030ffb2b32d54d5f5df812c53dedbd7',
-          'region' => 'sidebar_second',
-          'weight' => '-9',
+          'delta' => 'bfi_trimtab_sections-store',
+          'region' => 'content_bottom',
+          'weight' => '-5',
         ),
-        'views-cf4317e48216ab43f7701ecd5b693678' => array(
-          'module' => 'views',
-          'delta' => 'cf4317e48216ab43f7701ecd5b693678',
-          'region' => 'sidebar_second',
-          'weight' => '-8',
+        'block-10' => array(
+          'module' => 'block',
+          'delta' => '10',
+          'region' => 'content_bottom',
+          'weight' => '-4',
         ),
       ),
     ),
@@ -1169,6 +956,12 @@ function bfi_contexts_context_default_contexts() {
           'module' => 'views',
           'delta' => 'bfi_submenu_listing-updates',
           'region' => 'content_bottom',
+          'weight' => '-10',
+        ),
+        'views-bfi_sidebar_views-updates_note' => array(
+          'module' => 'views',
+          'delta' => 'bfi_sidebar_views-updates_note',
+          'region' => 'sidebar_second',
           'weight' => '-10',
         ),
       ),
