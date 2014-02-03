@@ -765,6 +765,7 @@ body.page-node-92 {
 
 .item-list {
 	width: 700px;
+	ul { list-style-type: disc; margin: $margin 0; }
 	ul.pager {
 		li {
 			margin: 0 0 0 10px;
@@ -783,12 +784,14 @@ body.section-about-fuller .region-content-bottom {
 		margin-bottom: $margin/2;
 		text-transform: lowercase;
 	}
-	#block-views-bfi-lit-rbf-books-intros,
-	#block-views-bfi-lit-rbf-books-forewords,
-	#block-views-bfi-lit-rbf-books-contributions {
-		.block-title {
-			text-transform: uppercase;
-		}
+}
+
+#block-views-bfi-lit-rbf-books-intros,
+#block-views-bfi-lit-rbf-books-forewords,
+#block-views-bfi-lit-rbf-books-contributions,
+#block-views-bfi-lit-rbf-books-synergetics {
+	.block-title {
+		text-transform: uppercase;
 	}
 }
 
@@ -1175,27 +1178,27 @@ body.page-node-241 {
 					text-transform: uppercase;
 					font-size: 9px;
 				}
-				.Art {
+				.art {
 					.hyphies { color: $color-red-dark; }
 					.discipline a:hover { @include sprite-vert-arrow-red-dark1; }
 				}
-				.Technology {
+				.sci-tech {
 					.hyphies { color: $color-blue-light; }
 					.discipline a:hover { @include sprite-vert-arrow-blue-light1; }
 				}
-				.Design {
+				.design {
 					.hyphies { color: $color-green-dark; }
 					.discipline a:hover { @include sprite-vert-arrow-green-dark1; }
 				}
-				.Science {
+				.social-impact {
 					.hyphies { color: $color-red-light; }
 					.discipline a:hover { @include sprite-vert-arrow-red-light1; }
 				}
-				.Architecture {
+				.arch-eng {
 					.hyphies { color: $color-green-light; }
 					.discipline a:hover { @include sprite-vert-arrow-green-light1; }
 				}
-				.Engineering {
+				.education {
 					.hyphies { color: $color-blue-dark; }
 					.discipline a:hover { @include sprite-vert-arrow-blue-dark1; }
 				}
@@ -1213,22 +1216,22 @@ body.page-node-241 {
 }
 
 body.section-dymaxion-forum.page-art, body.taxo-art {
-	#sidebar-second .view-bfi-disciplines-box .Art .discipline a { @include sprite-vert-arrow-red-dark1; }
+	#sidebar-second .view-bfi-disciplines-box .art .discipline a { @include sprite-vert-arrow-red-dark1; }
 }
-body.section-dymaxion-forum.page-technology, body.taxo-technology {
-	#sidebar-second .view-bfi-disciplines-box .Technology .discipline a { @include sprite-vert-arrow-blue-light1; }
+body.section-dymaxion-forum.page-sci-tech, body.taxo-sci-tech {
+	#sidebar-second .view-bfi-disciplines-box .sci-tech .discipline a { @include sprite-vert-arrow-blue-light1; }
 }
 body.section-dymaxion-forum.page-design, body.taxo-design  {
-	#sidebar-second .view-bfi-disciplines-box .Design .discipline a { @include sprite-vert-arrow-green-dark1; }
+	#sidebar-second .view-bfi-disciplines-box .design .discipline a { @include sprite-vert-arrow-green-dark1; }
 }
-body.section-dymaxion-forum.page-science, body.taxo-science {
-	#sidebar-second .view-bfi-disciplines-box .Science .discipline a { @include sprite-vert-arrow-red-light1; }
+body.section-dymaxion-forum.page-social-impact, body.taxo-social-impact {
+	#sidebar-second .view-bfi-disciplines-box .social-impact .discipline a { @include sprite-vert-arrow-red-light1; }
 }
-body.section-dymaxion-forum.page-architecture, body.taxo-architecture {
-	#sidebar-second .view-bfi-disciplines-box .Architecture .discipline a { @include sprite-vert-arrow-green-light1; }
+body.section-dymaxion-forum.page-arch-eng, body.taxo-arch-eng {
+	#sidebar-second .view-bfi-disciplines-box .arch-eng .discipline a { @include sprite-vert-arrow-green-light1; }
 }
-body.section-dymaxion-forum.page-engineering, body.taxo-engineering {
-	#sidebar-second .view-bfi-disciplines-box .Engineering .discipline a { @include sprite-vert-arrow-blue-dark1; }
+body.section-dymaxion-forum.page-education, body.taxo-education {
+	#sidebar-second .view-bfi-disciplines-box .education .discipline a { @include sprite-vert-arrow-blue-dark1; }
 }
 
 body.node-type-article #sidebar-second .block-menu-block li.active-trail > a {
@@ -1376,9 +1379,43 @@ footer {
 
 	}
 
-
-
 }
+
+/* -----  CHALLENGE STYLING  ----- */
+
+
+#edit-field-application-questions .field-name-field-project-review-score-wrap {
+	.field-widget-stars {
+		clear: both;
+		.form-type-fivestar {
+			width: 100%;
+			overflow: hidden;
+			postion: relative;
+			label {
+				float: left;
+				width: 150px;
+				text-align: right;
+				padding-right: $margin/2; 
+			}
+			.form-type-select { float: left; }
+		}
+	}
+}
+
+.field-application-questions .field-project-review-score-wrap {
+	width: 100%;
+	overflow: hidden;
+	postion: relative;
+	.field-label {
+		clear: both;
+		width: 150px;
+		float: left;
+		text-align: right;
+		padding-right: $margin/2;
+	}
+	.inline { float: left; }
+}
+
 
 /* -----  Excludes  ----- */
 

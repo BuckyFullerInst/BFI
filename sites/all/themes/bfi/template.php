@@ -8,7 +8,7 @@ function bfi_preprocess_html(&$vars) {
 		$disciplines = field_view_field('node', $node, 'field_disciplines');
 		foreach ($disciplines as $key => $discipline) {
 			if (is_numeric($key)) {
-			  $vars['classes_array'][] = strtolower('taxo-'.$discipline['#title']);
+			  $vars['classes_array'][] = strtolower('taxo-'.str_replace(' ', '-', str_replace(' + ', '-', $discipline['#title'])));
 			}
 		}
 	}
