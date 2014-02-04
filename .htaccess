@@ -143,6 +143,6 @@ DirectoryIndex index.php index.html index.htm
 </IfModule>
 
 # Set PHP's max upload size
-php_value upload_max_filesize 10M
-php_value post_max_size 10M
+php_value upload_max_filesize 35M
+php_value post_max_size 35M
 
