@@ -333,7 +333,7 @@ form {
 }
 
 body.node-type-idea .region-content-attribution {
-	font-size: 14px;
+	margin-top: $margin;
 	font-style: normal;
 }
 
@@ -1453,7 +1453,8 @@ body.page-node-95,
 body.page-node-96,
 body.page-node-6,
 body.page-node-1,
-body.page-search {
+body.page-search,
+body.node-type-idea {
 	h2#page-title {
 		display: none;
 	}
