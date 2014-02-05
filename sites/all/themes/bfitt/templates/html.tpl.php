@@ -37,6 +37,7 @@
 
 	<!--	<link href="<?php echo $base_url.'/'.drupal_get_path('theme', 'bfitt'); ?>/styles/email-style.css" rel="stylesheet" type="text/css" /> 	-->
 		<style type="text/css">
+			body { font-family: DIN, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 			table {
 				border-spacing: 0;
 				border-collapse: collapse;
@@ -44,6 +45,7 @@
 			table tr, table td {
 				margin: 0;
 				padding: 0;
+				vertical-align: top;
 			}
 			p, h1, h2, h3, h4, h5, h6 {
 				margin: 0;
@@ -52,6 +54,23 @@
 			#header, #page, #footer {
 				width: 600px;
 			}
+
+			h2.block-title {
+				padding: 10px 0;
+				border-bottom: 2px solid #F0F0F0;
+				margin-bottom: 20px;
+			}
+			table.views-view-grid td.col-1 { padding-right: 20px; }
+			table.views-view-grid td { padding-bottom: 20px; }
+
+			#block-views-bfi-sidebar-views-popular-2 { display: none; }
+
+			table#block-views-bfi-trimtab-email-block-5 { float: left; width: 300px; }
+			table#block-views-bfi-trimtab-email-block-5 table.views-view-grid td.col-1 { padding-right: 10px; }
+
+			table#block-views-bfi-trimtab-email-block-6 { float: right; width: 300px; }
+			table#block-views-bfi-trimtab-email-block-6 table.views-view-grid td.col-1 { padding-left: 10px; padding-right: 0; }
+
 		</style>
 
 		<?php print $head; ?>

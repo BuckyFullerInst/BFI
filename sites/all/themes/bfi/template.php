@@ -28,6 +28,9 @@ function bfi_preprocess_html(&$vars) {
       }
     }
   }
+  if (isset($node->field_banner_image['und'][0])) {
+    $vars['classes_array'][] = 'banner-image';
+  }
 }
 
 /**
