@@ -332,9 +332,17 @@ form {
 	@include post-date;
 }
 
-body.node-type-idea .region-content-attribution {
-	margin-top: $margin;
-	font-style: normal;
+body.node-type-idea,
+body.node-type-person.jury-member {
+	.region-content-attribution {
+		margin-top: $margin;
+		font-style: normal;
+	}
+}
+
+body.node-type-person.jury-member {
+	.region-content-attribution .views-row { background-color: transparent !important; margin-bottom: 0; }
+	.field-title-field { display: none; }
 }
 
 html {
@@ -1017,6 +1025,15 @@ body.page-node-239,
 body.page-node-240,
 body.page-node-241 {
 	#sidebar-second li.board a { background: url("../images/arrow-black4.png") no-repeat; }
+}
+
+body.year-2013 #sidebar-second li.2013-jury a,
+body.year-2012 #sidebar-second li.2012-jury a,
+body.year-2011 #sidebar-second li.2011-jury a,
+body.year-2010 #sidebar-second li.2010-jury a,
+body.year-2009 #sidebar-second li.2009-jury a,
+body.year-2008 #sidebar-second li.2008-jury a {
+	background: url("../images/arrow-black4.png") no-repeat;
 }
 
 /* -----  Sidebars  ----- */
