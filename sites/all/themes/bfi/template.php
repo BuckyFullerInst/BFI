@@ -8,10 +8,29 @@ function bfi_preprocess_html(&$vars) {
 		$disciplines = field_view_field('node', $node, 'field_disciplines');
 		foreach ($disciplines as $key => $discipline) {
 			if (is_numeric($key)) {
-			  $vars['classes_array'][] = strtolower('taxo-'.str_replace(' ', '-', str_replace(' + ', '-', $discipline['#title'])));
+			  $vars['classes_array'][] = 'taxo-'.strtolower(str_replace(' ', '-', str_replace(' + ', '-', $discipline['#title'])));
 			}
 		}
 	}
+  if (isset($node->field_person_type)) {
+    $types = field_view_field('node', $node, 'field_person_type');
+    foreach ($types as $key => $type) {
+      if (is_numeric($key)) {
+        $vars['classes_array'][] = strtolower(str_replace(' ', '-', $type['#title']));
+      }
+    }
+  }
+  if (isset($node->field_year)) {
+    $years = field_view_field('node', $node, 'field_year');
+    foreach ($years as $key => $year) {
+      if (is_numeric($key)) {
+        $vars['classes_array'][] = 'year-'.strip_tags($year['#markup']);
+      }
+    }
+  }
+  if (isset($node->field_banner_image['und'][0])) {
+    $vars['classes_array'][] = 'banner-image';
+  }
 }
 
 /**

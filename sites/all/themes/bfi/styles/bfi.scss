@@ -332,9 +332,17 @@ form {
 	@include post-date;
 }
 
-body.node-type-idea .region-content-attribution {
-	margin-top: $margin;
-	font-style: normal;
+body.node-type-idea,
+body.node-type-person.jury-member {
+	.region-content-attribution {
+		margin-top: $margin;
+		font-style: normal;
+	}
+}
+
+body.node-type-person.jury-member {
+	.region-content-attribution .views-row { background-color: transparent !important; margin-bottom: 0; }
+	.field-title-field { display: none; }
 }
 
 html {
@@ -846,6 +854,14 @@ body.section-about-fuller .region-content-bottom {
 	.issued { display: none; }
 }
 
+#block-views-bfi-lit-rbf-books-media-chall {
+	.view-content > h3 {
+		margin-bottom: $margin;
+		border-bottom: 2px solid $gray-back;
+		padding-bottom: $margin/2;
+	}
+}
+
 // Image thumbs at bottom of pages
 .view-id-bfi_content_image_thumbs {
 	.view-header { @include post-date; }
@@ -1017,6 +1033,15 @@ body.page-node-239,
 body.page-node-240,
 body.page-node-241 {
 	#sidebar-second li.board a { background: url("../images/arrow-black4.png") no-repeat; }
+}
+
+body.year-2013 #sidebar-second li.mid-2901,
+body.year-2012 #sidebar-second li.mid-2902,
+body.year-2011 #sidebar-second li.mid-2903,
+body.year-2010 #sidebar-second li.mid-2904,
+body.year-2009 #sidebar-second li.mid-2905,
+body.year-2008 #sidebar-second li.mid-2906 {
+	a { background: url("../images/arrow-black4.png") no-repeat; }
 }
 
 /* -----  Sidebars  ----- */
@@ -1477,3 +1502,7 @@ body.node-type-article {
 }
 
 body.section-challenge.page-apply #block-views-bfi-submenu-listing-block { display: none; }
+
+body.banner-image {
+	#block-views-bfi-banner-images-b-tt-p { display: none; }
+}
