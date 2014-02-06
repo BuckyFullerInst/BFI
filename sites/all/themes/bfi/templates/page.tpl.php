@@ -114,12 +114,15 @@
         <?php if ($tabs): ?>
           <div class="tabs"><?php print render($tabs); ?></div>
         <?php endif; ?>
+
         <?php if ($title): ?>
           <h2 class="title" id="page-title"><?php print $title; ?></h2>
-          <?php if ($page['content_attribution']): ?>
-            <?php print render($page['content_attribution']); ?>
-          <?php endif; ?>
         <?php endif; ?>
+
+        <?php if ($page['content_attribution']): ?>
+          <?php print render($page['content_attribution']); ?>
+        <?php endif; ?>
+
         <?php print $messages; ?>
         <?php print render($page['content']); ?>
         <?php if ($page['content_social']): ?>
