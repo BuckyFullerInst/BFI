@@ -31,12 +31,14 @@
  * @see template_preprocess_html()
  * @see template_process()
  */
+global $base_path, $base_url;
 ?>
 <html lang="en">
 	<head>
 
 	<!--	<link href="<?php echo $base_url.'/'.drupal_get_path('theme', 'bfitt'); ?>/styles/email-style.css" rel="stylesheet" type="text/css" /> 	-->
 		<style type="text/css">
+
 			body { font-family: DIN, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 			table {
 				border-spacing: 0;
@@ -51,8 +53,14 @@
 				margin: 0;
 				padding: 0;
 			}
+
 			#header, #page, #footer {
 				width: 600px;
+			}
+
+			a {
+				color: #EB3F24;
+				text-decoration: none;
 			}
 
 			h2.block-title {
@@ -60,16 +68,56 @@
 				border-bottom: 2px solid #F0F0F0;
 				margin-bottom: 20px;
 			}
-			table.views-view-grid td.col-1 { padding-right: 20px; }
-			table.views-view-grid td { padding-bottom: 20px; }
 
 			#block-views-bfi-sidebar-views-popular-2 { display: none; }
 
-			table#block-views-bfi-trimtab-email-block-5 { float: left; width: 300px; }
-			table#block-views-bfi-trimtab-email-block-5 table.views-view-grid td.col-1 { padding-right: 10px; }
+			#block-views-bfi-banner-images-b-tt-e .views-row img { margin-bottom: 20px; }
 
-			table#block-views-bfi-trimtab-email-block-6 { float: right; width: 300px; }
-			table#block-views-bfi-trimtab-email-block-6 table.views-view-grid td.col-1 { padding-left: 10px; padding-right: 0; }
+			.view-bfi-trimtab-email table.views-view-grid td.col-1 { border-right: 20px solid white; }
+			.view-bfi-trimtab-email table.views-view-grid td { background-color: #F0F0F0; border-bottom: 20px solid white; }
+			.view-bfi-trimtab-email .content { width: 290px;  }
+			.view-bfi-trimtab-email .content-desc { padding: 20px; }
+			.view-bfi-trimtab-email .content-desc a {
+				color: black;
+				text-transform: uppercase;
+				font-size: 12px;
+				margin-top: 10px;
+			}
+			.view-bfi-trimtab-email .content-desc p {
+				padding-top: 10px;
+				font-size: 14px;
+			}
+
+			.view-bfi-trimtab-email-head .view-content > td { padding: 10px 0 20px; }
+			.view-bfi-trimtab-email-head table.views-view-grid td {
+				width: 600px;
+				padding: 0 0 10px 0;
+				border-bottom: 2px solid #F0F0F0;
+			}
+
+			#block-views-bfi-trimtab-email-head-idin,
+			#block-views-bfi-trimtab-email-idin { width: 290px; float: left; clear: both; }
+			#block-views-bfi-trimtab-email-idin td { border-right: 0; }
+
+			#block-views-bfi-trimtab-email-head-store,
+			#block-views-bfi-trimtab-email-store { width: 290px; float: right; }
+			#block-views-bfi-trimtab-email-store td { border-right: 0; }
+
+			#block-views-bfi-trimtab-email-page-link table.views-view-grid td {
+				background-color: transparent;
+				border-bottom: 0;
+				padding: 10px 0;
+				font-size: 12px;
+				font-style: italic;
+			}
+
+			#footer td {
+				font-size: 11px;
+				background-color: #F0F0F0;
+				color: #000;
+				padding: 1em;
+				margin-top: 2em;
+			}
 
 		</style>
 

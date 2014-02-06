@@ -43,7 +43,7 @@ error_reporting(E_ALL);
 // Database configuration
 
 $db_server   = 'localhost';
-$db_name     = 'bfi_civicrm';
+$db_name     = 'bfi_drupal';
 $db_username = 'myadmin';
 $db_password = 'myadmin'; 
 
