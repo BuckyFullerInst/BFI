@@ -69,9 +69,20 @@ global $base_path, $base_url;
 				margin-bottom: 20px;
 			}
 
+			.tagline {
+				font-size: 12px;
+				color: #777;
+				font-style: italic;
+				text-align: center;
+			}
+
 			#block-views-bfi-sidebar-views-popular-2 { display: none; }
 
-			#block-views-bfi-banner-images-b-tt-e .views-row img { margin-bottom: 20px; }
+			#block-views-bfi-banner-images-b-tt-e .views-row { margin-bottom: 20px; }
+			#block-views-bfi-banner-images-b-tt-e .views-row img { margin-bottom: 8px; }
+			.tagline a { color: black; }
+			//.tagline a:hover { color: #777; }
+
 
 			.view-bfi-trimtab-email table.views-view-grid td.col-1 { border-right: 20px solid white; }
 			.view-bfi-trimtab-email table.views-view-grid td { background-color: #F0F0F0; border-bottom: 20px solid white; }
@@ -109,6 +120,38 @@ global $base_path, $base_url;
 				padding: 10px 0;
 				font-size: 12px;
 				font-style: italic;
+			}
+
+			#block-views-bfi-trimtab-email-head-trimtab table.views-view-grid td {
+				text-align: center;
+				border-bottom: 0;
+				padding: 20px 0 14px;
+			}
+
+			#block-views-bfi-banner-images-tt-email-top { width: 600px; }
+
+			#block-views-bfi-banner-images-tt-email-top table.views-view-grid tr {
+				position: relative;
+				width: 600px;
+			}
+
+			#block-views-bfi-banner-images-tt-email-top table.views-view-grid td {
+				font-size: 12px;
+				color: #777;
+				font-style: italic;
+				width: 600px;
+				text-align: center;
+				position: absolute;
+				top: 130px;
+				padding: 0 180px;
+				z-index: 10;
+			}
+
+			#block-views-bfi-banner-images-tt-email-top table.views-view-grid td p {
+				text-align: center;
+				padding: 0 20px 17px;
+				width: 200px;
+				background-color: white;
 			}
 
 			#footer td {

@@ -1,24 +1,3 @@
-<!--
-<table id="header" width="600" align="center" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td>
-      <?php if ($page['header']): ?>
-        <?php print render($page['header']); ?>
-      <?php endif; ?>
-
-      <?php if ($title): ?>
-        <h1 class="title" id="page-title"><?php print $title; ?></h1>
-      <?php endif; ?>
-    </td>
-  </tr>
-  <tr>
-    <td class="troubleshoot">
-      Having trouble viewing this email? <a href="http://www.bfi-internal.org/trimtab/v14_no12">View it in your browser</a>.
-    </td>
-  </tr>
-</table>
--->
-
 <table id="page" width="600" align="center">
   <tr>
 
