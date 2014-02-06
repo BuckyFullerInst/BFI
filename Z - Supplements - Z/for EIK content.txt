@@ -1,7 +1,0 @@
-<h3 id="part1">Part 1</h3>
-
-
-<hr id="part1" />
-<h3>Part 1</h3>
-
-node/135/session-12#part1

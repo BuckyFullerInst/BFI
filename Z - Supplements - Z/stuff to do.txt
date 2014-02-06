@@ -1,5 +1,0 @@
-- make new sidebar image dimensions
-- tweak sidebar displays (either 2 by 3/4 or thumb + description)
-- updates by tag
-- dymaxion forum post by tag
-- recent postings
