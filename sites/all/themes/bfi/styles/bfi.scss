@@ -411,7 +411,7 @@ html {
 			li {
 				border: none;
 				background-color: white;
-				margin: 0 18px 0 0;
+				margin: 0 38px 0 0; // margin: 0 18px 0 0;
 				a {
 					padding: 0;
 					color: $gray-med;
@@ -1507,3 +1507,10 @@ body.section-challenge.page-apply #block-views-bfi-submenu-listing-block { displ
 body.banner-image {
 	#block-views-bfi-banner-images-b-tt-p { display: none; }
 }
+
+/*
+ * STUFF TEMPORARILY DISABLED:
+ * - DYAMXION-FORUM
+ * - CHALLENGE/MEDIA
+ * - CHALLENGE/APPLY/INSTRUCTIONS
+ */

@@ -192,3 +192,6 @@
 [07-Feb-2014 11:56:12 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/bfiorg/public_html/sites/all/modules/entity2/includes/entity.inc' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bfiorg/public_html/includes/bootstrap.inc on line 3161
 [07-Feb-2014 11:56:17 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/bfiorg/public_html/sites/all/modules/entity2/includes/entity.inc' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bfiorg/public_html/includes/bootstrap.inc on line 3161
 [07-Feb-2014 11:56:28 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/bfiorg/public_html/sites/all/modules/entity2/includes/entity.inc' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bfiorg/public_html/includes/bootstrap.inc on line 3161
+[07-Feb-2014 19:28:58 America/Denver] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[07-Feb-2014 19:29:28 America/Denver] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[07-Feb-2014 21:36:00 America/New_York] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/bfiorg/public_html/includes/module.inc on line 765
