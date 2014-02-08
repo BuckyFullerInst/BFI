@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the BFI Image Styles feature.
+ */
+
+include_once 'bfi_image_styles.features.inc';

@@ -1,0 +1,14 @@
+diff --git a/views_node_access.module.old b/views_node_access.module
+index 983ee32..1ffdd5c 100644
+--- a/views_node_access.module.old
++++ b/views_node_access.module
+@@ -22,6 +22,9 @@ function views_node_access_check_node_type($types = array(), array $pre_callback
+   if (!empty($pre_callback)) {
+     $function_name = array_shift($pre_callback);
+     if (function_exists($function_name)) {
++      if ($function_name == 'views_check_roles') {
++        $pre_callback = $pre_callback[0];
++      }
+       $access = call_user_func_array($function_name, $pre_callback);
+     }
+   }

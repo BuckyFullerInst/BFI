@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the BFI Challenge Structure feature.
+ */
+
+include_once 'bfi_challenge_structure.features.inc';
