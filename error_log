@@ -195,3 +195,5 @@
 [07-Feb-2014 19:28:58 America/Denver] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
 [07-Feb-2014 19:29:28 America/Denver] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
 [07-Feb-2014 21:36:00 America/New_York] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/bfiorg/public_html/includes/module.inc on line 765
+[09-Feb-2014 12:08:49 America/Denver] PHP Fatal error:  Call to undefined function db_query() in /home/bfiorg/public_html/sites/all/modules/domain/domain.bootstrap.inc on line 112
+[09-Feb-2014 12:08:49 America/Denver] PHP Fatal error:  Call to undefined function db_query() in /home/bfiorg/public_html/sites/all/modules/domain/domain.bootstrap.inc on line 112

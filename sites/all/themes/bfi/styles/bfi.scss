@@ -634,7 +634,17 @@ body.front .region-content {
 	clear: both;
 }
 
-
+body.page-node-96 {
+	.donate-buttons {
+		margin: 0 auto;
+		overflow: hidden;
+		width: 360px;
+		margin-top: $margin;
+	}
+	.button { display: inline-block; }
+	.paypal { float: left; padding-top: 9px; }
+	.nfg { float: right; }
+}
 /* -----  Views  ----- */
 
 // Front Slideshow
@@ -792,6 +802,10 @@ body.section-about-fuller .region-content-bottom {
 		margin-bottom: $margin/2;
 		text-transform: lowercase;
 	}
+}
+
+body.section-about-fuller .region-content-bottom #block-views-bfi-lit-rbf-books-books-by-90s .block-title {
+	text-transform: capitalize;
 }
 
 #block-views-bfi-lit-rbf-books-intros,
@@ -1508,9 +1522,16 @@ body.banner-image {
 	#block-views-bfi-banner-images-b-tt-p { display: none; }
 }
 
+// Under construction post blurb
+#block-webform-client-block-513 .block-title { display: none; }
+body.page-node-511 #block-views-bfi-content-image-thumbs-block { display: none; }
+
 /*
  * STUFF TEMPORARILY DISABLED:
  * - DYAMXION-FORUM
  * - CHALLENGE/MEDIA
  * - CHALLENGE/APPLY/INSTRUCTIONS
+ * - ABOUT-BFI/WHAT-WE-DO/RESTORATIONS
+ * - ABOUT-FULLER/BIBLIOGRAPHY/ARTICLES-BY-FULLER
+ * - ABOUT-FULLER/BIBLIOGRAPHY/ARTICLES-ABOUT-FULLER
  */
