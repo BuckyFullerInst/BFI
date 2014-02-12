@@ -116,6 +116,9 @@ DirectoryIndex index.php index.html index.htm
   RewriteCond %{REQUEST_URI} !=/favicon.ico
   RewriteRule ^ index.php [L]
 
+  RewriteCond %{HTTP_HOST} ^challenge.bfi.org$
+  RewriteRule ^/?$ "http\:\/\/bfi\.org\/challenge" [R=301,L]
+
   # Rules to correctly serve gzip compressed CSS and JS files.
   # Requires both mod_rewrite and mod_headers to be enabled.
   <IfModule mod_headers.c>
@@ -141,3 +144,7 @@ DirectoryIndex index.php index.html index.htm
     </FilesMatch>
   </IfModule>
 </IfModule>
+RewriteCond %{HTTP_HOST} ^ideaindex\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ideaindex\.org$
+RewriteRule ^/?$ "http\:\/\/bfi\.org\/challenge" [R=301,L]
+

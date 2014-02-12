@@ -1,6 +1,0 @@
-
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^intranet.bfi.org$ [OR]
-RewriteCond %{HTTP_HOST} ^www.intranet.bfi.org$
-RewriteRule ^/?$ "https\:\/\/sites\.google\.com\/a\/bfi\.org\/bfi\/\?pli\=1" [R=301,L]
-

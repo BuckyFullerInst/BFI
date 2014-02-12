@@ -26,6 +26,7 @@ styles[styles/bfi.scss][options][media] = all
 ; scripts[] = scripts/jquery.sticky-kit.min.js
 scripts[] = scripts/bfi.js
 
+blacklist[stylesheets][] = "*/jquery.ui.theme.css"
 
 ; Regions -----------------------------------------------------------------
 ; these content regions are available for block placement.

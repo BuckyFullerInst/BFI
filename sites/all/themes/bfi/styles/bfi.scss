@@ -164,6 +164,7 @@ body.node-type-blog-post {
 
 $gray-dark: #111;
 $gray-med: #777;
+$gray-fieldset-hover: #C8C8C8;
 $gray-back: #F0F0F0;
 $link-active-menu: black;
 $width-content: 700px;
@@ -176,6 +177,12 @@ $color-red-dark: #EB3F24;
 $color-red-light: #E49541; 
 
 /* -----  More Mixins  ----- */
+
+@mixin normal {
+	@include din;
+	font-size: 14px;
+	line-height: 16px;
+}
 
 @mixin post-date {
 //	@include dini;
@@ -224,9 +231,7 @@ $color-red-light: #E49541;
 /* -----  BFI-specific Globals  ----- */
 
 body {
-	@include din;
-	font-size: 14px;
-	line-height: 16px;
+	@include normal;
 //	font-size: 15px;
 //	line-height: 18px;
 }
@@ -639,7 +644,7 @@ body.page-node-96 {
 		margin: 0 auto;
 		overflow: hidden;
 		width: 360px;
-		margin-top: $margin;
+		margin-bottom: $margin;
 	}
 	.button { display: inline-block; }
 	.paypal { float: left; padding-top: 9px; }
@@ -1422,6 +1427,31 @@ footer {
 }
 
 /* -----  CHALLENGE STYLING  ----- */
+
+// Application form
+
+#bfc-project-submit-entityform-edit-form {
+	#edit-field-application-questions {
+		#edit-field-application-questions-und-0 > legend {
+			display: none;
+		}
+		.field-group-accordion {
+			.ui-state-default { background-color: $gray-back; }
+			.ui-state-hover, .ui-state-active {
+				background-color: $gray-fieldset-hover;
+				background-image: none !important;
+			}
+			.ui-accordion-content { border: 1px solid $gray-back; border-top: 0; }
+			label, .fieldset-legend {
+				@include main-menu-item;
+			}
+			label.option {
+				@include normal;
+				text-transform: capitalize;
+			}
+		}
+	}
+}
 
 
 #edit-field-application-questions .field-name-field-project-review-score-wrap {
