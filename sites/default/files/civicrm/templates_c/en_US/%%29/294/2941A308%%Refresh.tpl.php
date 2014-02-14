@@ -1,0 +1,8 @@
+<?php /* Smarty version 2.6.27, created on 2014-02-13 12:18:24
+         compiled from CRM/Admin/Page/Extensions/Refresh.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('block', 'crmScope', 'CRM/Admin/Page/Extensions/Refresh.tpl', 1, false),array('block', 'ts', 'CRM/Admin/Page/Extensions/Refresh.tpl', 2, false),array('function', 'crmURL', 'CRM/Admin/Page/Extensions/Refresh.tpl', 2, false),)), $this); ?>
+<?php $this->_tag_stack[] = array('crmScope', array('extensionKey' => "")); $_block_repeat=true;smarty_block_crmScope($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?><div class="action-link">
+    <a href="<?php echo CRM_Utils_System::crmURL(array('q' => "reset=1"), $this);?>
+" id="new" class="button crm-extensions-refresh"><span><div class="icon refresh-icon"></div><?php $this->_tag_stack[] = array('ts', array()); $_block_repeat=true;smarty_block_ts($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>Refresh<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_ts($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?></span></a>
+</div><?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_crmScope($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>

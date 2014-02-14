@@ -154,9 +154,12 @@ class Mail_mail extends Mail {
         list($from, $text_headers) = $headerElements;
 
         // use Return-Path for SMTP envelope’s FROM address (if set), CRM-5946
+/* Commented out a la http://forum.civicrm.org/index.php/topic,24242.15.html and http://forum.civicrm.org/index.php?topic=30428.0
+on Feb 12, 2014 */
         if (!empty($headers['Return-Path'])) {
             $from = $headers['Return-Path'];
         }
+
         $this->_params = "-f".$from;
 
         // We only use mail()'s optional fifth parameter if the additional

@@ -272,10 +272,12 @@ class Mail_smtp extends Mail {
         /* Since few MTAs are going to allow this header to be forged
          * unless it's in the MAIL FROM: exchange, we'll use
          * Return-Path instead of From: if it's set. */
+
+/* Commented out a la http://forum.civicrm.org/index.php/topic,24242.15.html and http://forum.civicrm.org/index.php?topic=30428.0
+on Feb 12, 2014 */
         if (!empty($headers['Return-Path'])) {
             $from = $headers['Return-Path'];
         }
-
         if (!isset($from)) {
             $this->_smtp->rset();
             return PEAR::raiseError('No From: address has been provided',

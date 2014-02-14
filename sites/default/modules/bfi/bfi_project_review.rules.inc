@@ -435,6 +435,26 @@ function bfi_project_review_action_attach_project_to_user($project) {
 			$return = intval($value->uid);
 		}
 	} else {								// Else make new user
+		$dupe_count = 0;
+		$keep_going = 1;
+		for ($i = 0; $keep_going == 1; $i++) {		// Searching for people with same name, even if diff Email
+			$dupe_query = new EntityFieldQuery();
+			if (!$dupe_count) {
+				$dupe_query
+					->entityCondition('entity_type', 'user')
+					->propertyCondition('name', $app_name);
+			} else {
+				$dupe_query
+					->entityCondition('entity_type', 'user')
+					->propertyCondition('name', $app_name.' '.strval($dupe_count));
+			}
+			$dupes = $dupe_query->execute();
+			if (isset($dupes['user'])) $dupe_count++;
+			else $keep_going = 0;
+		}
+		if ($dupe_count > 0) {					// Appending dupe-counted number to end if duped
+			$app_name = $app_name.' '.strval($dupe_count);
+		}
 		$new_user_fields = array(
     		'name' => $app_name,
     		'mail' => $app_email,
@@ -445,8 +465,10 @@ function bfi_project_review_action_attach_project_to_user($project) {
       			DRUPAL_AUTHENTICATED_RID => 'authenticated user',
     		),
   		);
+
   		$new_user = user_save('', $new_user_fields);
   		$return = intval($new_user->uid);
+
 	}
 	return array(
 		'user_rid' => $return,

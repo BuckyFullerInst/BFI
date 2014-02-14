@@ -331,7 +331,10 @@ form {
 		@include din;
 		font-weight: normal;
 	}
+	.form-type-managed-file { margin-top: 0 !important; }
 }
+
+.form-item .description { font-size: 1em !important; }
 
 .region-content-attribution, .attribution, .post-date {
 	@include post-date;
@@ -555,6 +558,7 @@ h2#page-title {
 			width: 110px;
 			padding-right: 20px;
 			height: 60px;
+			line-height: 15px;
 			overflow: hidden;
 			a {
 				color: black;
@@ -663,7 +667,8 @@ body.page-node-96 {
 .view-bfi-banner-images.view-display-id-section_name3,
 .view-bfi-banner-images.view-display-id-section_name4,
 .view-bfi-banner-images.view-display-id-search_title,
-.view-bfi-banner-images.view-display-id-section_trimtab {
+.view-bfi-banner-images.view-display-id-section_trimtab,
+.view-bfi-banner-images.view-display-id-app_title {
 	div.views-row {
 		position: relative;
 		div.section {
@@ -740,8 +745,8 @@ body.page-node-96 {
 	}
 }
 
-// Submenu-specific
-body.page-node-92 {
+// Subsection listings with other listings above
+body.page-node-92, body.page-node-191 {
 	#block-views-bfi-submenu-listing-block {
 		border-top: 1px solid $gray-back;
 		padding-top: $margin;
@@ -1430,7 +1435,8 @@ footer {
 
 // Application form
 
-#bfc-project-submit-entityform-edit-form {
+#bfc-project-submit-entityform-edit-form,
+#bfc-project-submit-entityform-edit-form--2 {
 	#edit-field-application-questions {
 		#edit-field-application-questions-und-0 > legend {
 			display: none;
@@ -1442,15 +1448,36 @@ footer {
 				background-image: none !important;
 			}
 			.ui-accordion-content { border: 1px solid $gray-back; border-top: 0; }
-			label, .fieldset-legend {
-				@include main-menu-item;
-			}
-			label.option {
-				@include normal;
-				text-transform: capitalize;
-			}
+		}
+		.form-item-field-application-questions-und-0-field-project-app-exit-catalyst-und-select { margin-top: 1em; }
+		.form-item-field-application-questions-und-0-field-project-app-exit-catalyst-und-select > label,
+		.form-item-field-application-questions-und-0-field-project-app-exit-edu-und-0-value > label,
+		.form-item-field-application-questions-und-0-field-project-app-exit-narrative-und-0-value > label { display:none; }
+		margin-bottom: 0;
+	}
+	.form-wrapper {
+		margin: $margin 0 $margin*2;
+		.form-item, .form-action { 
+			margin: 0;
 		}
 	}
+	label, .fieldset-legend {
+		@include main-menu-item;
+	}
+	label.option {
+		@include normal;
+		text-transform: initial;
+	}
+	#edit-field-application-terms-accept {
+		.form-item { overflow: hidden; }
+		input { float: left; }
+		.description { float: left; margin-left: $margin/2; }
+		label { display: none; }
+	}
+	.form-type-managed-file label { display: none; }
+	.description, .fieldset-description { margin-bottom: 1em; }
+	#edit-field-application-questions-und-0 { margin-bottom: 0; }
+	#edit-field-application-terms-accept { margin: 0; }
 }
 
 
@@ -1484,6 +1511,10 @@ footer {
 		padding-right: $margin/2;
 	}
 	.inline { float: left; }
+}
+
+body.node-type-bfc-fee-payment-page form#payment-form-standalone {
+	#edit-field-payment-type, #edit-field-payment-app-id { display: none; }
 }
 
 
@@ -1530,12 +1561,9 @@ body.node-type-idea {
 	}
 }
 
-#block-menu-block-2, #block-views-bfi-disciplines-box-block-1 { display: none; }
-
 body.section-dymaxion-forum {
 	#block-views-bfi-submenu-listing-block,
-	#sidebar-second #block-menu-block-1,
-	#sidebar-second #block-menu-block-2 {
+	#sidebar-second #block-menu-block-1 {
 		display: none;
 	}
 }
@@ -1546,11 +1574,16 @@ body.node-type-article {
 	}
 }
 
+//body.section-challenge #block-views-bfi-banner-images-banner { display: none; }
+//body.section-challenge .region-sidebar-second { z-index: 2000000000000000; }
 body.section-challenge.page-apply #block-views-bfi-submenu-listing-block { display: none; }
 
 body.banner-image {
 	#block-views-bfi-banner-images-b-tt-p { display: none; }
 }
+
+body.page-node-320 #sidebar-second { display: none; }
+body.page-node-191 #block-views-bfi-submenu-listing-block { display:none; }
 
 // Under construction post blurb
 #block-webform-client-block-513 .block-title { display: none; }
@@ -1559,9 +1592,5 @@ body.page-node-511 #block-views-bfi-content-image-thumbs-block { display: none; 
 /*
  * STUFF TEMPORARILY DISABLED:
  * - DYAMXION-FORUM
- * - CHALLENGE/MEDIA
  * - CHALLENGE/APPLY/INSTRUCTIONS
- * - ABOUT-BFI/WHAT-WE-DO/RESTORATIONS
- * - ABOUT-FULLER/BIBLIOGRAPHY/ARTICLES-BY-FULLER
- * - ABOUT-FULLER/BIBLIOGRAPHY/ARTICLES-ABOUT-FULLER
  */

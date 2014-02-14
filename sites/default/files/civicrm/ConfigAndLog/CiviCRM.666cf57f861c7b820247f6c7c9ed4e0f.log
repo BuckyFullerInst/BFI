@@ -1022,3 +1022,1704 @@ Feb 12 05:57:32  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modul
 #36 {main}
 
 
+Feb 12 14:13:21  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 12 14:13:28  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 12 14:14:46  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 12 14:14:46  [info] CiviMail will not send an empty mail body, Skipping: t.kida@bfi.org
+
+Feb 12 14:14:46  [info] CiviMail will not send an empty mail body, Skipping: p.freund@bfi.org
+
+Feb 12 14:14:46  [info] CiviMail will not send an empty mail body, Skipping: voightkampff@bfi.org
+
+Feb 13 02:33:22  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("updates")
+#24 [internal function](): views_block_view("bfi_sidebar_views-updates")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_sidebar_views-updates")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:3))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:6))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:6))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page((Array:1))
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page((Array:1))
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page((Array:1), "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 02:33:22  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("updates")
+#24 [internal function](): views_block_view("bfi_sidebar_views-updates")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_sidebar_views-updates")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:3))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:6))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:6))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page((Array:1))
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page((Array:1))
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page((Array:1), "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 02:33:23  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("updates")
+#24 [internal function](): views_block_view("bfi_submenu_listing-updates")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_submenu_listing-updates")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:3))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:6))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:6))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page((Array:1))
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page((Array:1))
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page((Array:1), "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 02:33:26  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("banner")
+#24 [internal function](): views_block_view("bfi_banner_images-banner")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_banner_images-banner")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:4))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:6))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:6))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page((Array:1))
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page((Array:1))
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page((Array:1), "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 02:33:26  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("banner")
+#24 [internal function](): views_block_view("bfi_banner_images-banner")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_banner_images-banner")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:4))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:6))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:6))
+#32 /home/bfiorg/public_html/includes/common.inc(2632): drupal_render_page((Array:5))
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page(2)
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page(2, NULL)
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 02:33:40  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("challenge_winners")
+#24 [internal function](): views_block_view("c7fd38e30bcde2e4dcc8476ef07312ce")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "c7fd38e30bcde2e4dcc8476ef07312ce")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:3))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:6))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:6))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page((Array:1))
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page((Array:1))
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page((Array:1), "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 02:33:43  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 02:33:43  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("banner")
+#24 [internal function](): views_block_view("bfi_banner_images-banner")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_banner_images-banner")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:4))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:6))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:6))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page((Array:1))
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page((Array:1))
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page((Array:1), "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 02:33:45  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("banner")
+#24 [internal function](): views_block_view("bfi_banner_images-banner")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_banner_images-banner")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:4))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:6))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:6))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page((Array:1))
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page((Array:1))
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page((Array:1), "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:26  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:27  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:30  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:39  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:40  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("banner")
+#24 [internal function](): views_block_view("bfi_banner_images-banner")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_banner_images-banner")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:4))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:6))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:6))
+#32 /home/bfiorg/public_html/includes/common.inc(2632): drupal_render_page((Array:5))
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page(2)
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page(2, NULL)
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:40  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:40  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:42  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:43  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:44  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:45  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfc_site_logo-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfc_site_logo-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:5))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:6))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:6))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page((Array:25))
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page((Array:25))
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page((Array:25), "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:46  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:46  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:40:57  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:41:07  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("banner")
+#24 [internal function](): views_block_view("bfi_banner_images-banner")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_banner_images-banner")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:4))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:6))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:6))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page((Array:1))
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page((Array:1))
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page((Array:1), "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 03:41:09  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(236): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User bfiorg_admin already has more than 'max_user_connections' a...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "User bfiorg_admin already has more than 'max_user_connections' active connect...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(198): DB_DataObject->_connect()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(82): CRM_Core_DAO->initialize()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(265): CRM_Core_Config::singleton()
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(735): civicrm_initialize()
+#17 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_query_default.inc(1391): civicrm_views_query_alter(Object(view), Object(views_plugin_query_default))
+#18 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1049): views_plugin_query_default->alter(Object(view))
+#19 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1124): view->build(NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1192): view->execute(NULL)
+#21 /home/bfiorg/public_html/sites/all/modules/views/plugins/views_plugin_display_block.inc(54): view->render()
+#22 /home/bfiorg/public_html/sites/all/modules/views/includes/view.inc(1345): views_plugin_display_block->execute()
+#23 /home/bfiorg/public_html/sites/all/modules/views/views.module(702): view->execute_display("block")
+#24 [internal function](): views_block_view("bfi_front_slideshow-block")
+#25 /home/bfiorg/public_html/includes/module.inc(866): call_user_func_array("views_block_view", (Array:1))
+#26 /home/bfiorg/public_html/modules/block/block.module(893): module_invoke("views", "block_view", "bfi_front_slideshow-block")
+#27 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(392): _block_render_blocks((Array:1))
+#28 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(354): context_reaction_block->block_list("header")
+#29 /home/bfiorg/public_html/sites/all/modules/context/plugins/context_reaction_block.inc(223): context_reaction_block->block_get_blocks_by_region("header")
+#30 /home/bfiorg/public_html/sites/all/modules/context/context.core.inc(264): context_reaction_block->execute((Array:5))
+#31 /home/bfiorg/public_html/includes/common.inc(5741): context_page_build((Array:5))
+#32 /home/bfiorg/public_html/includes/common.inc(2675): drupal_render_page("")
+#33 /home/bfiorg/public_html/includes/common.inc(2563): drupal_deliver_html_page("")
+#34 /home/bfiorg/public_html/includes/menu.inc(532): drupal_deliver_page("", "")
+#35 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#36 {main}
+
+
+Feb 13 11:31:41  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:31:48  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:31:49  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:31:49  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:31:49  [info] CiviMail will not send an empty mail body, Skipping: t.kida@bfi.org
+
+Feb 13 11:31:49  [info] CiviMail will not send an empty mail body, Skipping: p.freund@bfi.org
+
+Feb 13 11:31:49  [info] CiviMail will not send an empty mail body, Skipping: voightkampff@bfi.org
+
+Feb 13 11:31:50  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:32:40  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:48:39  [info] $Fatal Error Details = Array
+(
+    [message] => Could not connect to MailStore for @<p>Error message: <pre>An error occured while sending or receiving mail. Failed to connect to the server: :143.</pre><p>
+    [code] => 
+)
+
+
+Feb 13 11:48:39  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(278): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Mail/EmailProcessor.php(173): CRM_Core_Error::fatal("Could not connect to MailStore for @<p>Error message: <pre>An error occured w...")
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Mail/EmailProcessor.php(55): CRM_Utils_Mail_EmailProcessor::_process(TRUE, Object(CRM_Core_DAO_MailSettings))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/api/v3/Job.php(357): CRM_Utils_Mail_EmailProcessor::processBounces()
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/api/api.php(87): civicrm_api3_job_fetch_bounces((Array:1))
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/JobManager.php(132): civicrm_api("Job", "fetch_bounces", (Array:1))
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/JobManager.php(88): CRM_Core_JobManager->executeJob(Object(CRM_Core_ScheduledJob))
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/bin/cron.php(42): CRM_Core_JobManager->execute()
+#8 {main}
+
+
+Feb 13 11:48:39  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:48:39  [info] CiviMail will not send an empty mail body, Skipping: t.kida@bfi.org
+
+Feb 13 11:48:39  [info] CiviMail will not send an empty mail body, Skipping: p.freund@bfi.org
+
+Feb 13 11:48:39  [info] CiviMail will not send an empty mail body, Skipping: voightkampff@bfi.org
+
+Feb 13 11:54:23  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:54:28  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:54:28  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:54:28  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:54:28  [info] CiviMail will not send an empty mail body, Skipping: t.kida@bfi.org
+
+Feb 13 11:54:28  [info] CiviMail will not send an empty mail body, Skipping: p.freund@bfi.org
+
+Feb 13 11:54:28  [info] CiviMail will not send an empty mail body, Skipping: voightkampff@bfi.org
+
+Feb 13 11:54:29  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:54:36  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:55:19  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 11:55:19  [info] CiviMail will not send an empty mail body, Skipping: t.kida@bfi.org
+
+Feb 13 11:55:19  [info] CiviMail will not send an empty mail body, Skipping: p.freund@bfi.org
+
+Feb 13 11:55:19  [info] CiviMail will not send an empty mail body, Skipping: voightkampff@bfi.org
+
+Feb 13 12:31:19  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 12:31:23  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 12:31:23  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 12:31:23  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 12:31:34  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 12:32:27  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 12:32:27  [info] CiviMail will not send an empty mail body, Skipping: t.kida@bfi.org
+
+Feb 13 12:32:27  [info] CiviMail will not send an empty mail body, Skipping: p.freund@bfi.org
+
+Feb 13 12:32:27  [info] CiviMail will not send an empty mail body, Skipping: voightkampff@bfi.org
+
+Feb 13 12:50:09  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 12:50:12  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 12:51:05  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 12:51:05  [info] CiviMail will not send an empty mail body, Skipping: t.kida@bfi.org
+
+Feb 13 12:51:05  [info] CiviMail will not send an empty mail body, Skipping: p.freund@bfi.org
+
+Feb 13 12:51:05  [info] CiviMail will not send an empty mail body, Skipping: voightkampff@bfi.org
+
+Feb 13 13:04:00  [info] Ignoring exception thrown by nullHandler: 111, Connection refused
+
+Feb 13 13:04:00  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(785): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("Connection refused", 111, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/Socket.php(156): PEAR->raiseError("Connection refused", 111)
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(451): Net_Socket->connect("lists.bfi.org", "20095", FALSE, 30, NULL)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(374): Net_SMTP->connect(30)
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(254): Mail_smtp->getSMTPObject()
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Admin/Form/Setting/Smtp.php(172): Mail_smtp->send("contact@bfi.org", (Array:3), "SMTP settings are correct.")
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Admin_Form_Setting_Smtp->postProcess()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(297): CRM_Utils_Wrapper->run("CRM_Admin_Form_Setting_Smtp", "Outbound Email Settings", NULL)
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#17 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#18 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:4))
+#19 [internal function](): civicrm_invoke("admin", "setting", "smtp")
+#20 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#21 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#22 {main}
+
+
+Feb 13 13:04:00  [info] Ignoring exception thrown by nullHandler: , Failed to connect socket: Connection refused
+
+Feb 13 13:04:00  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(785): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("Failed to connect socket: Connection refused", NULL, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(454): PEAR->raiseError("Failed to connect socket: Connection refused")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(374): Net_SMTP->connect(30)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(254): Mail_smtp->getSMTPObject()
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Admin/Form/Setting/Smtp.php(172): Mail_smtp->send("contact@bfi.org", (Array:3), "SMTP settings are correct.")
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Admin_Form_Setting_Smtp->postProcess()
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(297): CRM_Utils_Wrapper->run("CRM_Admin_Form_Setting_Smtp", "Outbound Email Settings", NULL)
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#17 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:4))
+#18 [internal function](): civicrm_invoke("admin", "setting", "smtp")
+#19 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#20 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#21 {main}
+
+
+Feb 13 13:04:00  [info] Ignoring exception thrown by nullHandler: 10001, Failed to connect to lists.bfi.org:20095 [SMTP: Failed to connect socket: Connection refused (code: -1, response: )]
+
+Feb 13 13:04:00  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(785): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("Failed to connect to lists.bfi.org:20095 [SMTP: Failed to connect socket: Con...", 10001, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(378): PEAR->raiseError("Failed to connect to lists.bfi.org:20095 [SMTP: Failed to connect socket: Con...", 10001)
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(254): Mail_smtp->getSMTPObject()
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Admin/Form/Setting/Smtp.php(172): Mail_smtp->send("contact@bfi.org", (Array:3), "SMTP settings are correct.")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Admin_Form_Setting_Smtp->postProcess()
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(297): CRM_Utils_Wrapper->run("CRM_Admin_Form_Setting_Smtp", "Outbound Email Settings", NULL)
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:4))
+#17 [internal function](): civicrm_invoke("admin", "setting", "smtp")
+#18 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#19 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#20 {main}
+
+
+Feb 13 13:04:00  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => 
+    [message] => not connected
+    [mode] => 16
+    [debug_info] => 
+    [type] => PEAR_Error
+    [user_info] => 
+    [to_string] => [pear_error: message="not connected" code=0 mode=callback callback=CRM_Core_Error::handle prefix="" info=""]
+)
+
+
+Feb 13 13:04:00  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("not connected", NULL, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/Socket.php(327): PEAR->raiseError("not connected")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(264): Net_Socket->write("QUIT\r\n")
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(302): Net_SMTP->_send("QUIT\r\n")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(493): Net_SMTP->_put("QUIT")
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(423): Net_SMTP->disconnect()
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(218): Mail_smtp->disconnect()
+#10 [internal function](): Mail_smtp->_Mail_smtp()
+#11 {main}
+
+
+Feb 13 13:06:13  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 13:06:19  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 13:06:20  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 13:06:20  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 13:06:20  [info] CiviMail will not send an empty mail body, Skipping: t.kida@bfi.org
+
+Feb 13 13:06:20  [info] CiviMail will not send an empty mail body, Skipping: p.freund@bfi.org
+
+Feb 13 13:06:20  [info] CiviMail will not send an empty mail body, Skipping: voightkampff@bfi.org
+
+Feb 13 13:06:20  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 13:06:38  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 13:06:53  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 13:06:53  [info] CiviMail will not send an empty mail body, Skipping: t.kida@bfi.org
+
+Feb 13 13:06:53  [info] CiviMail will not send an empty mail body, Skipping: p.freund@bfi.org
+
+Feb 13 13:06:53  [info] CiviMail will not send an empty mail body, Skipping: voightkampff@bfi.org
+
+Feb 13 13:23:36  [info] Ignoring exception thrown by nullHandler: 0, php_network_getaddresses: getaddrinfo failed: Name or service not known
+
+Feb 13 13:23:36  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(785): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("php_network_getaddresses: getaddrinfo failed: Name or service not known", 0, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/Socket.php(156): PEAR->raiseError("php_network_getaddresses: getaddrinfo failed: Name or service not known", 0)
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(451): Net_Socket->connect("bfi.civismtp.org", "20095", FALSE, 30, NULL)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(374): Net_SMTP->connect(30)
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(254): Mail_smtp->getSMTPObject()
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Admin/Form/Setting/Smtp.php(172): Mail_smtp->send("contact@bfi.org", (Array:3), "SMTP settings are correct.")
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Admin_Form_Setting_Smtp->postProcess()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(297): CRM_Utils_Wrapper->run("CRM_Admin_Form_Setting_Smtp", "Outbound Email Settings", NULL)
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#17 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#18 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:4))
+#19 [internal function](): civicrm_invoke("admin", "setting", "smtp")
+#20 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#21 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#22 {main}
+
+
+Feb 13 13:23:36  [info] Ignoring exception thrown by nullHandler: , Failed to connect socket: php_network_getaddresses: getaddrinfo failed: Name or service not known
+
+Feb 13 13:23:36  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(785): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("Failed to connect socket: php_network_getaddresses: getaddrinfo failed: Name ...", NULL, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(454): PEAR->raiseError("Failed to connect socket: php_network_getaddresses: getaddrinfo failed: Name ...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(374): Net_SMTP->connect(30)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(254): Mail_smtp->getSMTPObject()
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Admin/Form/Setting/Smtp.php(172): Mail_smtp->send("contact@bfi.org", (Array:3), "SMTP settings are correct.")
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Admin_Form_Setting_Smtp->postProcess()
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(297): CRM_Utils_Wrapper->run("CRM_Admin_Form_Setting_Smtp", "Outbound Email Settings", NULL)
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#17 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:4))
+#18 [internal function](): civicrm_invoke("admin", "setting", "smtp")
+#19 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#20 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#21 {main}
+
+
+Feb 13 13:23:36  [info] Ignoring exception thrown by nullHandler: 10001, Failed to connect to bfi.civismtp.org:20095 [SMTP: Failed to connect socket: php_network_getaddresses: getaddrinfo failed: Name or service not known (code: -1, response: )]
+
+Feb 13 13:23:36  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(785): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("Failed to connect to bfi.civismtp.org:20095 [SMTP: Failed to connect socket: ...", 10001, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(378): PEAR->raiseError("Failed to connect to bfi.civismtp.org:20095 [SMTP: Failed to connect socket: ...", 10001)
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(254): Mail_smtp->getSMTPObject()
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Admin/Form/Setting/Smtp.php(172): Mail_smtp->send("contact@bfi.org", (Array:3), "SMTP settings are correct.")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Admin_Form_Setting_Smtp->postProcess()
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(297): CRM_Utils_Wrapper->run("CRM_Admin_Form_Setting_Smtp", "Outbound Email Settings", NULL)
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:4))
+#17 [internal function](): civicrm_invoke("admin", "setting", "smtp")
+#18 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#19 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#20 {main}
+
+
+Feb 13 13:23:36  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => 
+    [message] => not connected
+    [mode] => 16
+    [debug_info] => 
+    [type] => PEAR_Error
+    [user_info] => 
+    [to_string] => [pear_error: message="not connected" code=0 mode=callback callback=CRM_Core_Error::handle prefix="" info=""]
+)
+
+
+Feb 13 13:23:36  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("not connected", NULL, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/Socket.php(327): PEAR->raiseError("not connected")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(264): Net_Socket->write("QUIT\r\n")
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(302): Net_SMTP->_send("QUIT\r\n")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(493): Net_SMTP->_put("QUIT")
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(423): Net_SMTP->disconnect()
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(218): Mail_smtp->disconnect()
+#10 [internal function](): Mail_smtp->_Mail_smtp()
+#11 {main}
+
+
+Feb 13 13:24:25  [info] Ignoring exception thrown by nullHandler: 110, Connection timed out
+
+Feb 13 13:24:25  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(785): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("Connection timed out", 110, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/Socket.php(156): PEAR->raiseError("Connection timed out", 110)
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(451): Net_Socket->connect("bfi.civismtp.com", "20095", FALSE, 30, NULL)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(374): Net_SMTP->connect(30)
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(254): Mail_smtp->getSMTPObject()
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Admin/Form/Setting/Smtp.php(172): Mail_smtp->send("contact@bfi.org", (Array:3), "SMTP settings are correct.")
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Admin_Form_Setting_Smtp->postProcess()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(297): CRM_Utils_Wrapper->run("CRM_Admin_Form_Setting_Smtp", "Outbound Email Settings", NULL)
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#17 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#18 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:4))
+#19 [internal function](): civicrm_invoke("admin", "setting", "smtp")
+#20 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#21 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#22 {main}
+
+
+Feb 13 13:24:25  [info] Ignoring exception thrown by nullHandler: , Failed to connect socket: Connection timed out
+
+Feb 13 13:24:25  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(785): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("Failed to connect socket: Connection timed out", NULL, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(454): PEAR->raiseError("Failed to connect socket: Connection timed out")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(374): Net_SMTP->connect(30)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(254): Mail_smtp->getSMTPObject()
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Admin/Form/Setting/Smtp.php(172): Mail_smtp->send("contact@bfi.org", (Array:3), "SMTP settings are correct.")
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Admin_Form_Setting_Smtp->postProcess()
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(297): CRM_Utils_Wrapper->run("CRM_Admin_Form_Setting_Smtp", "Outbound Email Settings", NULL)
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#17 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:4))
+#18 [internal function](): civicrm_invoke("admin", "setting", "smtp")
+#19 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#20 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#21 {main}
+
+
+Feb 13 13:24:25  [info] Ignoring exception thrown by nullHandler: 10001, Failed to connect to bfi.civismtp.com:20095 [SMTP: Failed to connect socket: Connection timed out (code: -1, response: )]
+
+Feb 13 13:24:25  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(785): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("Failed to connect to bfi.civismtp.com:20095 [SMTP: Failed to connect socket: ...", 10001, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(378): PEAR->raiseError("Failed to connect to bfi.civismtp.com:20095 [SMTP: Failed to connect socket: ...", 10001)
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(254): Mail_smtp->getSMTPObject()
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Admin/Form/Setting/Smtp.php(172): Mail_smtp->send("contact@bfi.org", (Array:3), "SMTP settings are correct.")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Admin_Form_Setting_Smtp->postProcess()
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(297): CRM_Utils_Wrapper->run("CRM_Admin_Form_Setting_Smtp", "Outbound Email Settings", NULL)
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:4))
+#17 [internal function](): civicrm_invoke("admin", "setting", "smtp")
+#18 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#19 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#20 {main}
+
+
+Feb 13 13:24:25  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => 
+    [message] => not connected
+    [mode] => 16
+    [debug_info] => 
+    [type] => PEAR_Error
+    [user_info] => 
+    [to_string] => [pear_error: message="not connected" code=0 mode=callback callback=CRM_Core_Error::handle prefix="" info=""]
+)
+
+
+Feb 13 13:24:25  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("not connected", NULL, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/Socket.php(327): PEAR->raiseError("not connected")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(264): Net_Socket->write("QUIT\r\n")
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(302): Net_SMTP->_send("QUIT\r\n")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(493): Net_SMTP->_put("QUIT")
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(423): Net_SMTP->disconnect()
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(218): Mail_smtp->disconnect()
+#10 [internal function](): Mail_smtp->_Mail_smtp()
+#11 {main}
+
+
+Feb 13 13:25:00  [info] Ignoring exception thrown by nullHandler: 0, php_network_getaddresses: getaddrinfo failed: Name or service not known
+
+Feb 13 13:25:00  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(785): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("php_network_getaddresses: getaddrinfo failed: Name or service not known", 0, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/Socket.php(156): PEAR->raiseError("php_network_getaddresses: getaddrinfo failed: Name or service not known", 0)
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(451): Net_Socket->connect("bfi.uas.coop", "20095", FALSE, 30, NULL)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(374): Net_SMTP->connect(30)
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(254): Mail_smtp->getSMTPObject()
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Admin/Form/Setting/Smtp.php(172): Mail_smtp->send("contact@bfi.org", (Array:3), "SMTP settings are correct.")
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Admin_Form_Setting_Smtp->postProcess()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(297): CRM_Utils_Wrapper->run("CRM_Admin_Form_Setting_Smtp", "Outbound Email Settings", NULL)
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#17 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#18 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:4))
+#19 [internal function](): civicrm_invoke("admin", "setting", "smtp")
+#20 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#21 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#22 {main}
+
+
+Feb 13 13:25:00  [info] Ignoring exception thrown by nullHandler: , Failed to connect socket: php_network_getaddresses: getaddrinfo failed: Name or service not known
+
+Feb 13 13:25:00  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(785): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("Failed to connect socket: php_network_getaddresses: getaddrinfo failed: Name ...", NULL, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(454): PEAR->raiseError("Failed to connect socket: php_network_getaddresses: getaddrinfo failed: Name ...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(374): Net_SMTP->connect(30)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(254): Mail_smtp->getSMTPObject()
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Admin/Form/Setting/Smtp.php(172): Mail_smtp->send("contact@bfi.org", (Array:3), "SMTP settings are correct.")
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Admin_Form_Setting_Smtp->postProcess()
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(297): CRM_Utils_Wrapper->run("CRM_Admin_Form_Setting_Smtp", "Outbound Email Settings", NULL)
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#17 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:4))
+#18 [internal function](): civicrm_invoke("admin", "setting", "smtp")
+#19 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#20 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#21 {main}
+
+
+Feb 13 13:25:00  [info] Ignoring exception thrown by nullHandler: 10001, Failed to connect to bfi.uas.coop:20095 [SMTP: Failed to connect socket: php_network_getaddresses: getaddrinfo failed: Name or service not known (code: -1, response: )]
+
+Feb 13 13:25:00  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(785): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("Failed to connect to bfi.uas.coop:20095 [SMTP: Failed to connect socket: php_...", 10001, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(378): PEAR->raiseError("Failed to connect to bfi.uas.coop:20095 [SMTP: Failed to connect socket: php_...", 10001)
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(254): Mail_smtp->getSMTPObject()
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Admin/Form/Setting/Smtp.php(172): Mail_smtp->send("contact@bfi.org", (Array:3), "SMTP settings are correct.")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Admin_Form_Setting_Smtp->postProcess()
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Admin_Form_Setting_Smtp), "refresh")
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(297): CRM_Utils_Wrapper->run("CRM_Admin_Form_Setting_Smtp", "Outbound Email Settings", NULL)
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:4))
+#17 [internal function](): civicrm_invoke("admin", "setting", "smtp")
+#18 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#19 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#20 {main}
+
+
+Feb 13 13:25:00  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => 
+    [message] => not connected
+    [mode] => 16
+    [debug_info] => 
+    [type] => PEAR_Error
+    [user_info] => 
+    [to_string] => [pear_error: message="not connected" code=0 mode=callback callback=CRM_Core_Error::handle prefix="" info=""]
+)
+
+
+Feb 13 13:25:00  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(PEAR_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("not connected", NULL, 16, (Array:2), NULL)
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/Socket.php(327): PEAR->raiseError("not connected")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(264): Net_Socket->write("QUIT\r\n")
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(302): Net_SMTP->_send("QUIT\r\n")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Net/SMTP.php(493): Net_SMTP->_put("QUIT")
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(423): Net_SMTP->disconnect()
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/Mail/smtp.php(218): Mail_smtp->disconnect()
+#10 [internal function](): Mail_smtp->_Mail_smtp()
+#11 {main}
+
+
+Feb 13 13:29:43  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 13:29:55  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 13:29:55  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 13:29:55  [info] CiviMail will not send an empty mail body, Skipping: t.kida@bfi.org
+
+Feb 13 13:29:55  [info] CiviMail will not send an empty mail body, Skipping: p.freund@bfi.org
+
+Feb 13 13:29:55  [info] CiviMail will not send an empty mail body, Skipping: voightkampff@bfi.org
+
+Feb 13 13:29:55  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 13:29:59  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 13:30:11  [info] CiviMail will not send an empty mail body, Skipping: contact@bfi.org
+
+Feb 13 13:30:11  [info] CiviMail will not send an empty mail body, Skipping: t.kida@bfi.org
+
+Feb 13 13:30:11  [info] CiviMail will not send an empty mail body, Skipping: p.freund@bfi.org
+
+Feb 13 13:30:11  [info] CiviMail will not send an empty mail body, Skipping: voightkampff@bfi.org
+
+Feb 13 15:25:26  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -3
+    [message] => DB Error: constraint violation
+    [mode] => 16
+    [debug_info] => INSERT INTO civicrm_address (contact_id , location_type_id , is_primary , is_billing , street_address , city , manual_geo_code ) VALUES ( 18381 ,  2 ,  1 ,  0 , 'Director' , 'Los Angeles' ,  0 )  [nativecode=1452 ** Cannot add or update a child row: a foreign key constraint fails (`bfiorg_prod_civicrm`.`civicrm_address`, CONSTRAINT `FK_civicrm_address_contact_id` FOREIGN KEY (`contact_id`) REFERENCES `civicrm_contact` (`id`) ON DELETE CASCADE)]
+    [type] => DB_Error
+    [user_info] => INSERT INTO civicrm_address (contact_id , location_type_id , is_primary , is_billing , street_address , city , manual_geo_code ) VALUES ( 18381 ,  2 ,  1 ,  0 , 'Director' , 'Los Angeles' ,  0 )  [nativecode=1452 ** Cannot add or update a child row: a foreign key constraint fails (`bfiorg_prod_civicrm`.`civicrm_address`, CONSTRAINT `FK_civicrm_address_contact_id` FOREIGN KEY (`contact_id`) REFERENCES `civicrm_contact` (`id`) ON DELETE CASCADE)]
+    [to_string] => [db_error: message="DB Error: constraint violation" code=-3 mode=callback callback=CRM_Core_Error::handle prefix="" info="INSERT INTO civicrm_address (contact_id , location_type_id , is_primary , is_billing , street_address , city , manual_geo_code ) VALUES ( 18381 ,  2 ,  1 ,  0 , 'Director' , 'Los Angeles' ,  0 )  [nativecode=1452 ** Cannot add or update a child row: a foreign key constraint fails (`bfiorg_prod_civicrm`.`civicrm_address`, CONSTRAINT `FK_civicrm_address_contact_id` FOREIGN KEY (`contact_id`) REFERENCES `civicrm_contact` (`id`) ON DELETE CASCADE)]"]
+)
+
+
+Feb 13 15:25:26  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: constraint violation", -3, 16, (Array:2), "INSERT INTO civicrm_address (contact_id , location_type_id , is_primary , is_...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-3, 16, (Array:2), "INSERT INTO civicrm_address (contact_id , location_type_id , is_primary , is_...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -3, NULL, NULL, "INSERT INTO civicrm_address (contact_id , location_type_id , is_primary , is_...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-3, NULL, NULL, NULL, "1452 ** Cannot add or update a child row: a foreign key constraint fails (`bf...")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("INSERT INTO civicrm_address (contact_id , location_type_id , is_primary , is_...")
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2421): DB_common->query("INSERT INTO civicrm_address (contact_id , location_type_id , is_primary , is_...")
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(1055): DB_DataObject->_query("INSERT INTO civicrm_address (contact_id , location_type_id , is_primary , is_...")
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(277): DB_DataObject->insert()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/Address.php(162): CRM_Core_DAO->save()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/Address.php(126): CRM_Core_BAO_Address::add((Array:8), TRUE)
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/BAO/Location.php(69): CRM_Core_BAO_Address::create((Array:7), TRUE, NULL)
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/BAO/Contact.php(352): CRM_Core_BAO_Location::create((Array:7), TRUE)
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/BAO/Contact.php(1775): CRM_Contact_BAO_Contact::create((Array:7))
+#17 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/Import/Parser/Contact.php(1672): CRM_Contact_BAO_Contact::createProfileContact((Array:5), (Array:34), "18381", NULL, NULL, "Organization")
+#18 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/Import/Parser/Contact.php(680): CRM_Contact_Import_Parser_Contact->createContact((Array:5), (Array:34), "4", "18381", TRUE, "2")
+#19 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/Import/Parser.php(208): CRM_Contact_Import_Parser_Contact->import("4", (Array:48), NULL)
+#20 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/Import/ImportJob.php(276): CRM_Contact_Import_Parser->run("civicrm_import_job_2cc5503b071be418c21cc861508a2c8e", (Array:44), 8, 4, "_id", "_status", "4", "b38dc37f02708c55ee7812e20c334058", 88, NULL, 30, NULL, "2")
+#21 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/Import/Form/Preview.php(282): CRM_Contact_Import_ImportJob->runImport(Object(CRM_Contact_Import_Form_Preview))
+#22 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Contact_Import_Form_Preview->postProcess()
+#23 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/StateMachine.php(160): CRM_Core_Form->mainProcess()
+#24 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Next.php(60): CRM_Core_StateMachine->perform(Object(CRM_Contact_Import_Form_Preview), "next", "Next")
+#25 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Next->perform(Object(CRM_Contact_Import_Form_Preview), "next")
+#26 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Import_Form_Preview), "next")
+#27 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("next")
+#28 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:3), NULL)
+#29 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#30 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#31 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:3))
+#32 [internal function](): civicrm_invoke("import", "contact")
+#33 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:2))
+#34 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#35 {main}
+
+
+Feb 13 18:08:45  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -1
+    [message] => DB Error: unknown error
+    [mode] => 16
+    [debug_info] => INSERT INTO civicrm_contact (contact_type , contact_sub_type , do_not_email , do_not_phone , do_not_mail , do_not_sms , do_not_trade , is_opt_out , sort_name , display_name , preferred_language , hash , first_name , middle_name , last_name , email_greeting_id , postal_greeting_id , addressee_id , job_title ) VALUES ('Individual' ,  NULL ,  0 ,  0 ,  0 ,  0 ,  0 ,  0 , 'Fischer, Grahme' , 'Grahme Fischer' , 'en_US' , '7d4887a8ad9a92c08c4a17e635b8d437' , 'Grahme' ,  NULL , 'Fischer' ,  1 ,  1 ,  1 ,  NULL )  [nativecode=1213 ** Deadlock found when trying to get lock; try restarting transaction]
+    [type] => DB_Error
+    [user_info] => INSERT INTO civicrm_contact (contact_type , contact_sub_type , do_not_email , do_not_phone , do_not_mail , do_not_sms , do_not_trade , is_opt_out , sort_name , display_name , preferred_language , hash , first_name , middle_name , last_name , email_greeting_id , postal_greeting_id , addressee_id , job_title ) VALUES ('Individual' ,  NULL ,  0 ,  0 ,  0 ,  0 ,  0 ,  0 , 'Fischer, Grahme' , 'Grahme Fischer' , 'en_US' , '7d4887a8ad9a92c08c4a17e635b8d437' , 'Grahme' ,  NULL , 'Fischer' ,  1 ,  1 ,  1 ,  NULL )  [nativecode=1213 ** Deadlock found when trying to get lock; try restarting transaction]
+    [to_string] => [db_error: message="DB Error: unknown error" code=-1 mode=callback callback=CRM_Core_Error::handle prefix="" info="INSERT INTO civicrm_contact (contact_type , contact_sub_type , do_not_email , do_not_phone , do_not_mail , do_not_sms , do_not_trade , is_opt_out , sort_name , display_name , preferred_language , hash , first_name , middle_name , last_name , email_greeting_id , postal_greeting_id , addressee_id , job_title ) VALUES ('Individual' ,  NULL ,  0 ,  0 ,  0 ,  0 ,  0 ,  0 , 'Fischer, Grahme' , 'Grahme Fischer' , 'en_US' , '7d4887a8ad9a92c08c4a17e635b8d437' , 'Grahme' ,  NULL , 'Fischer' ,  1 ,  1 ,  1 ,  NULL )  [nativecode=1213 ** Deadlock found when trying to get lock; try restarting transaction]"]
+)
+
+
+Feb 13 18:08:45  [info] $backTrace = #0 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: unknown error", -1, 16, (Array:2), "INSERT INTO civicrm_contact (contact_type , contact_sub_type , do_not_email ,...")
+#4 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-1, 16, (Array:2), "INSERT INTO civicrm_contact (contact_type , contact_sub_type , do_not_email ,...")
+#5 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -1, NULL, NULL, "INSERT INTO civicrm_contact (contact_type , contact_sub_type , do_not_email ,...", "DB_Error", TRUE)
+#6 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-1, NULL, NULL, NULL, "1213 ** Deadlock found when trying to get lock; try restarting transaction")
+#7 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("INSERT INTO civicrm_contact (contact_type , contact_sub_type , do_not_email ,...")
+#9 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2421): DB_common->query("INSERT INTO civicrm_contact (contact_type , contact_sub_type , do_not_email ,...")
+#10 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(1055): DB_DataObject->_query("INSERT INTO civicrm_contact (contact_type , contact_sub_type , do_not_email ,...")
+#11 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(277): DB_DataObject->insert()
+#12 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/BAO/Contact.php(218): CRM_Core_DAO->save()
+#13 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/BAO/Contact.php(314): CRM_Contact_BAO_Contact::add((Array:19))
+#14 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/BAO/Contact.php(1775): CRM_Contact_BAO_Contact::create((Array:19))
+#15 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/Import/Parser/Contact.php(1672): CRM_Contact_BAO_Contact::createProfileContact((Array:8), (Array:34), NULL, NULL, NULL, "Individual")
+#16 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/Import/Parser/Contact.php(680): CRM_Contact_Import_Parser_Contact->createContact((Array:8), (Array:34), "8", NULL, TRUE, "")
+#17 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/Import/Parser.php(208): CRM_Contact_Import_Parser_Contact->import("8", (Array:45), NULL)
+#18 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/Import/ImportJob.php(276): CRM_Contact_Import_Parser->run("civicrm_import_job_33438be7319bf72d9386c2c8d5accb87", (Array:42), 8, 1, "_id", "_status", "8", "bb380f299114f3acb94e60d952014d54", 1000, NULL, 30, NULL, "")
+#19 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Contact/Import/Form/Preview.php(282): CRM_Contact_Import_ImportJob->runImport(Object(CRM_Contact_Import_Form_Preview))
+#20 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(261): CRM_Contact_Import_Form_Preview->postProcess()
+#21 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/StateMachine.php(160): CRM_Core_Form->mainProcess()
+#22 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Next.php(60): CRM_Core_StateMachine->perform(Object(CRM_Contact_Import_Form_Preview), "next", "Next")
+#23 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Next->perform(Object(CRM_Contact_Import_Form_Preview), "next")
+#24 /home/bfiorg/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Import_Form_Preview), "next")
+#25 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("next")
+#26 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:3), NULL)
+#27 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#28 /home/bfiorg/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#29 /home/bfiorg/public_html/sites/all/modules/civicrm/drupal/civicrm.module(456): CRM_Core_Invoke::invoke((Array:3))
+#30 [internal function](): civicrm_invoke("import", "contact")
+#31 /home/bfiorg/public_html/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:2))
+#32 /home/bfiorg/public_html/index.php(21): menu_execute_active_handler()
+#33 {main}
+
+
+Feb 13 21:02:10  [info] $Geocoding failed. Message from Google:  = OVER_QUERY_LIMIT
+
+Feb 13 21:02:46  [info] $Geocoding failed. Message from Google:  = OVER_QUERY_LIMIT
+
+Feb 13 21:02:46  [info] $Geocoding failed. Message from Google:  = OVER_QUERY_LIMIT
+
+Feb 13 21:05:08  [info] $Geocoding failed. Message from Google:  = OVER_QUERY_LIMIT
+
+Feb 13 21:05:18  [info] $Geocoding failed. Message from Google:  = OVER_QUERY_LIMIT
+
+Feb 13 21:05:46  [info] $Geocoding failed. Message from Google:  = OVER_QUERY_LIMIT
+
+Feb 13 21:06:30  [info] $Geocoding failed. Message from Google:  = OVER_QUERY_LIMIT
+

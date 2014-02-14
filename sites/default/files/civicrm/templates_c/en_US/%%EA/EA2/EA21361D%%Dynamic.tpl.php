@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-02-11 18:04:25
+<?php /* Smarty version 2.6.27, created on 2014-02-13 10:36:40
          compiled from CRM/Profile/Page/Dynamic.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('block', 'crmScope', 'CRM/Profile/Page/Dynamic.tpl', 1, false),array('block', 'crmRegion', 'CRM/Profile/Page/Dynamic.tpl', 33, false),array('modifier', 'truncate', 'CRM/Profile/Page/Dynamic.tpl', 31, false),)), $this); ?>
