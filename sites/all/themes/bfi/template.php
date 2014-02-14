@@ -107,10 +107,16 @@ function bfi_form_element($variables) {
         $output .= '<div class="description">' . $element['#description'] . "</div>\n";
       }
       $output .= ' ' . $prefix . $element['#children'] . $suffix . "\n";
+      if ($element['#type'] == 'textarea') {
+        $output .= '<div id="count-'.str_replace('_', '-', $element['#field_name']).'" class="word-count"></div>';
+      }
       break;
 
     case 'after':
       $output .= ' ' . $prefix . $element['#children'] . $suffix;
+      if ($element['#type'] == 'textarea') {
+        $output .= '<div id="count-'.str_replace('_', '-', $element['#field_name']).'" class="word-count"></div>';
+      }
       if (!empty($element['#description'])) {
         $output .= '<div class="description">' . $element['#description'] . "</div>\n";
       }
@@ -124,6 +130,9 @@ function bfi_form_element($variables) {
         $output .= '<div class="description">' . $element['#description'] . "</div>\n";
       }
       $output .= ' ' . $prefix . $element['#children'] . $suffix . "\n";
+      if ($element['#type'] == 'textarea') {
+        $output .= '<div id="count-'.str_replace('_', '-', $element['#field_name']).'" class="word-count"></div>';
+      }
       break;
   }
 

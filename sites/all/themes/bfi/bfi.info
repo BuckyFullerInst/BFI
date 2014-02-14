@@ -24,6 +24,7 @@ styles[styles/bfi.scss][options][media] = all
 ; Theme Script Files ------------------------------------------------------
 
 ; scripts[] = scripts/jquery.sticky-kit.min.js
+scripts[] = scripts/counter/word-and-character-counter.min.js
 scripts[] = scripts/bfi.js
 
 blacklist[stylesheets][] = "*/jquery.ui.theme.css"

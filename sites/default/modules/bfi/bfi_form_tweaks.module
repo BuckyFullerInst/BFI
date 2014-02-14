@@ -30,7 +30,7 @@ function bfi_form_tweaks_form_alter(&$form, &$form_state, $form_id) {
 */
 
 function bfi_form_tweaks_form_alter(&$form, &$form_state, $form_id) {
-  if ($form_id == 'bfc-project-submit-entityform-edit-form') {
+  if ($form_id == 'bfc_project_submit_entityform_edit_form') {
     honeypot_add_form_protection($form, $form_state, array('honeypot', 'time_restriction'));
   }
 }
